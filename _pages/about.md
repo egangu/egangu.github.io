@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Gu Yanggan is a Master's student at Soochow University. His main research directions focus on efficient training of large language models and preference alignment, as well as syntactic and semantic analysis. He has currently published 5 papers at top international conferences (ACL, SIGIR, COLING, etc.), with 3 papers as first author. He has won 8 awards in national and provincial competitions (China Software Cup, Challenge Cup, etc.). He has obtained 7 software copyrights. Additionally, he has conducted research internships and collaborations at Tencent and Huawei, publishing 1 collaborative paper.
+Hi, my name is Yanggan Gu (辜仰淦). I am currently a research assistant at [InfiX-ai](https://huggingface.co/InfiX-ai), fortunately advised by [Prof. Hongxia Yang](https://www4.comp.polyu.edu.hk/~hongxyang/). Before this, I received my Master’s degree from Soochow University in 2025, fortunately advised by [Prof. Zhenghua Li](https://web.suda.edu.cn/zhli13/). My main research interest focuses on efficient training and preference alignment of LLMs, as well as syntactic and semantic parsing.
 
 # 🔥 News
 - *2025.02*: &nbsp;🎉🎉 Two papers have been accepted to ACL 2025 Findings.
@@ -71,12 +71,8 @@ Sirui Huang*, **Yanggan Gu\***, Zhonghao Li, Xuming Hu, Li Qing, Guandong Xu
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- *2022.09 - 2025.06*, Graduate student at NLP Lab, Soochow University, advised by [Prof. Zhenghua Li](https://web.suda.edu.cn/zhli13/). 
+- *2018.09 - 2022.06*, Undergraduate student at School of Computer Science, Guangdong University of Technology, advised by [Prof. Guangqiang Xie](https://yzw.gdut.edu.cn/info/1120/1879.htm). 
 
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2025.06 - now*, [InfiX-ai](https://huggingface.co/InfiX-ai), China.
