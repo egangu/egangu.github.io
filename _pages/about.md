@@ -24,6 +24,16 @@ Gu Yanggan is a Master's student at Soochow University. His main research direct
 
 # 📝 Publications 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arxiv</div><img src='images/paper-fpo.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[InfiFPO: Implicit Model Fusion via Preference Optimization in Large Language Models.](https://arxiv.org/pdf/2505.13878)
+
+**Yanggan Gu**, Zhaoyi Yan, Yuanyi Wang, Yiming Zhang, Qi Zhou, Fei Wu, Hongxia Yang
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2025 Findings</div><img src='images/paper-pad.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -42,6 +52,16 @@ Gu Yanggan is a Master's student at Soochow University. His main research direct
 [StructFact: Reasoning Factual Knowledge from Structured Data with Large Language Models.](https://aclanthology.org/2025.findings-acl.391.pdf)
 
 Sirui Huang*, **Yanggan Gu\***, Zhonghao Li, Xuming Hu, Li Qing, Guandong Xu
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">COLING 2024</div><img src='images/paper-high.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[High-order joint constituency and dependency parsing.](https://aclanthology.org/2024.lrec-main.713.pdf)
+
+**Yanggan Gu**, Yang Hou, Zhefeng Wang, Xinyu Duan, Zhenghua Li
 
 </div>
 </div>
