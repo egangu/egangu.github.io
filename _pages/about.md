@@ -67,8 +67,10 @@ Sirui Huang*, **Yanggan Gu\***, Zhonghao Li, Xuming Hu, Li Qing, Guandong Xu
 </div>
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2023.08* 1st place in the CCL-2023 Chinese AMR Parsing Evaluation Task. [Report](https://aclanthology.org/2023.ccl-3.5/). 
+- *2021.12* Top 10 Innovative Figures of Guangdong University of Technology. [Sohu News](https://www.sohu.com/a/507610953_121124288)
+- *2021.11* National Encouragement Scholarship. [Link](https://edu.gd.gov.cn/zwgknew/gsgg/content/post_3678694.html)
+- *2021.11* 1st Prize at the 9th “China Software Cup” College Student Design Competition. [Link](https://www.cnsoftbei.com/content-1-565-1.html)
 
 # 📖 Educations
 - *2022.09 - 2025.06*, Graduate student at NLP Lab, Soochow University, advised by [Prof. Zhenghua Li](https://web.suda.edu.cn/zhli13/). 
