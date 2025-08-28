@@ -20,15 +20,14 @@ redirect_from:
 Gu Yanggan is a Master's student at Soochow University. His main research directions focus on efficient training of large language models and preference alignment, as well as syntactic and semantic analysis. He has currently published 5 papers at top international conferences (ACL, SIGIR, COLING, etc.), with 3 papers as first author. He has won 8 awards in national and provincial competitions (China Software Cup, Challenge Cup, etc.). He has obtained 7 software copyrights. Additionally, he has conducted research internships and collaborations at Tencent and Huawei, publishing 1 collaborative paper.
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.02*: &nbsp;🎉🎉 Two papers have been accepted to ACL 2025 Findings.
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/paper-pad.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[Deep Residual Learning for Image Recognition](https://aclanthology.org/2025.findings-acl.822.pdf)
 
 **Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
 
