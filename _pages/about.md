@@ -27,7 +27,7 @@ Gu Yanggan is a Master's student at Soochow University. His main research direct
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2025 Findings</div><img src='images/paper-pad.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Capturing Nuanced Preferences: Preference-Aligned Distillation for Small Language Models](https://aclanthology.org/2025.findings-acl.822.pdf)
+[Capturing Nuanced Preferences: Preference-Aligned Distillation for Small Language Models.](https://aclanthology.org/2025.findings-acl.822.pdf)
 
 **Yanggan Gu**, Junzhuo Li, Sirui Huang, Xin Zou, Zhenghua Li, Xuming Hu
 
@@ -36,7 +36,15 @@ Gu Yanggan is a Master's student at Soochow University. His main research direct
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2025 Findings</div><img src='images/paper-struct.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[StructFact: Reasoning Factual Knowledge from Structured Data with Large Language Models.](https://aclanthology.org/2025.findings-acl.391.pdf)
+
+Sirui Huang*, **Yanggan Gu\***, Zhonghao Li, Xuming Hu, Li Qing, Guandong Xu
+
+</div>
+</div>
 
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
