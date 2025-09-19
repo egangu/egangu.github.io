@@ -23,7 +23,7 @@ Hi, my name is Yanggan Gu (辜仰淦). I am currently a research assistant at [I
 - *2025.09*: &nbsp;🎉🎉 Two papers have been accepted to NeurIPS 2025.
 - *2025.02*: &nbsp;🎉🎉 Two papers have been accepted to ACL 2025 Findings.
 
-# 📝 Publications 
+# 📝 Selective Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025 Spotlight</div><img src='images/paper-fpo.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
