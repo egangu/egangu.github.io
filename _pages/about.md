@@ -20,11 +20,12 @@ redirect_from:
 Hi, my name is Yanggan Gu (辜仰淦). I am currently a research assistant at [InfiX-ai](https://huggingface.co/InfiX-ai), fortunately advised by [Prof. Hongxia Yang](https://www4.comp.polyu.edu.hk/~hongxyang/). Before this, I received my Master’s degree from Soochow University in 2025, fortunately advised by [Prof. Zhenghua Li](https://web.suda.edu.cn/zhli13/). My main research interest focuses on efficient training and preference alignment of LLMs, as well as syntactic and semantic parsing.
 
 # 🔥 News
+- *2025.09*: &nbsp;🎉🎉 Two papers have been accepted to NeurIPS 2025.
 - *2025.02*: &nbsp;🎉🎉 Two papers have been accepted to ACL 2025 Findings.
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arxiv</div><img src='images/paper-fpo.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025 Spotlight</div><img src='images/paper-fpo.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [InfiFPO: Implicit Model Fusion via Preference Optimization in Large Language Models.](https://arxiv.org/pdf/2505.13878)
