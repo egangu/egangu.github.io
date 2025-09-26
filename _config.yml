@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yanggan Gu"
-description              : "Gu Yanggan is a Master's degree graduate student at Soochow University. His main research directions include efficient training and preference alignment of LLMs, as well as syntactic and semantic parsing."
+description              : "Do the right thing."
 repository               : "egangu/egangu.github.io"
 google_scholar_stats_use_cdn : true
 

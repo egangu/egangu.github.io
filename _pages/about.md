@@ -23,49 +23,21 @@ Hi, my name is Yanggan Gu (辜仰淦). I am currently a research assistant at [I
 - *2025.09*: &nbsp;🎉🎉 Two papers have been accepted to NeurIPS 2025.
 - *2025.02*: &nbsp;🎉🎉 Two papers have been accepted to ACL 2025 Findings.
 
-# 📝 Selective Publications 
+# 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025 Spotlight</div><img src='images/paper-fpo.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+- ``NeurIPS 2025 Spotlight`` [InfiFPO: Implicit Model Fusion via Preference Optimization in Large Language Models.](https://arxiv.org/pdf/2505.13878) **Yanggan Gu**, Zhaoyi Yan, Yuanyi Wang, Yiming Zhang, Qi Zhou, Fei Wu, Hongxia Yang
 
-[InfiFPO: Implicit Model Fusion via Preference Optimization in Large Language Models.](https://arxiv.org/pdf/2505.13878)
+- ``NeurIPS 2025`` [InfiGFusion: Graph-on-Logits Distillation via Efficient Gromov-Wasserstein for Model Fusion.](https://arxiv.org/pdf/2505.13893) Yuanyi Wang, Zhaoyi Yan, Yiming Zhang, Qi Zhou, **Yanggan Gu**, Fei Wu, Hongxia Yang
 
-**Yanggan Gu**, Zhaoyi Yan, Yuanyi Wang, Yiming Zhang, Qi Zhou, Fei Wu, Hongxia Yang
+- ``EMNLP 2025 Main`` [Exploring Response Uncertainty in MLLMs: An Empirical Evaluation under Misleading Scenarios.](https://arxiv.org/pdf/2411.02708) Yunkai Dang, Mengxi Gao, Yibo Yan, Xin Zou, **Yanggan Gu**, Aiwei Liu, Xuming Hu
 
-</div>
-</div>
+- ``ACL 2025 Findings`` [Capturing Nuanced Preferences: Preference-Aligned Distillation for Small Language Models.](https://aclanthology.org/2025.findings-acl.822.pdf) **Yanggan Gu**, Junzhuo Li, Sirui Huang, Xin Zou, Zhenghua Li, Xuming Hu
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2025 Findings</div><img src='images/paper-pad.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+- ``ACL 2025 Findings`` [StructFact: Reasoning Factual Knowledge from Structured Data with Large Language Models.](https://aclanthology.org/2025.findings-acl.391.pdf) Sirui Huang, **Yanggan Gu**, Zhonghao Li, Xuming Hu, Li Qing, Guandong Xu
 
-[Capturing Nuanced Preferences: Preference-Aligned Distillation for Small Language Models.](https://aclanthology.org/2025.findings-acl.822.pdf)
+- ``SIGIR 2025`` [HyperG: Hypergraph-Enhanced LLMs for Structured Knowledge.](https://dl.acm.org/doi/pdf/10.1145/3726302.3730002) Sirui Huang, Hanqian Li, **Yanggan Gu**, Xuming Hu, Qing Li, Guandong Xu
 
-**Yanggan Gu**, Junzhuo Li, Sirui Huang, Xin Zou, Zhenghua Li, Xuming Hu
-
-<!-- [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2025 Findings</div><img src='images/paper-struct.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[StructFact: Reasoning Factual Knowledge from Structured Data with Large Language Models.](https://aclanthology.org/2025.findings-acl.391.pdf)
-
-Sirui Huang*, **Yanggan Gu\***, Zhonghao Li, Xuming Hu, Li Qing, Guandong Xu
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">COLING 2024</div><img src='images/paper-high.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[High-order joint constituency and dependency parsing.](https://aclanthology.org/2024.lrec-main.713.pdf)
-
-**Yanggan Gu**, Yang Hou, Zhefeng Wang, Xinyu Duan, Zhenghua Li
-
-</div>
-</div>
+- ``COLING 2025`` [High-Order Joint Constituency and Dependency Parsing.](https://aclanthology.org/2024.lrec-main.713.pdf) **Yanggan Gu**, Yang Hou, Zhefeng Wang, Xinyu Duan, Zhenghua Li
 
 # 🎖 Honors and Awards
 - *2023.08* 1st place in the CCL-2023 Chinese AMR Parsing Evaluation Task. [Report](https://aclanthology.org/2023.ccl-3.5/). 
