@@ -20,8 +20,8 @@ redirect_from:
 Hi, my name is Yanggan Gu (辜仰淦). I am currently a research assistant at [InfiX-ai](https://huggingface.co/InfiX-ai), fortunately advised by [Prof. Hongxia Yang](https://www4.comp.polyu.edu.hk/~hongxyang/). Before this, I received my Master’s degree from Soochow University in 2025, fortunately advised by [Prof. Zhenghua Li](https://web.suda.edu.cn/zhli13/). My main research interest focuses on efficient training and preference alignment of LLMs, as well as syntactic and semantic parsing.
 
 # 🔥 News
-- *2025.09*: &nbsp;🎉🎉 Two papers have been accepted to NeurIPS 2025.
-- *2025.02*: &nbsp;🎉🎉 Two papers have been accepted to ACL 2025 Findings.
+- *2025.09*: &nbsp;🎉🎉 Two papers have been accepted to NeurIPS 2025!
+- *2025.02*: &nbsp;🎉🎉 Two papers have been accepted to ACL 2025 Findings!
 
 # 📝 Publications 
 
@@ -37,7 +37,7 @@ Hi, my name is Yanggan Gu (辜仰淦). I am currently a research assistant at [I
 
 - ``SIGIR 2025`` [HyperG: Hypergraph-Enhanced LLMs for Structured Knowledge.](https://dl.acm.org/doi/pdf/10.1145/3726302.3730002) Sirui Huang, Hanqian Li, **Yanggan Gu**, Xuming Hu, Qing Li, Guandong Xu
 
-- ``COLING 2025`` [High-Order Joint Constituency and Dependency Parsing.](https://aclanthology.org/2024.lrec-main.713.pdf) **Yanggan Gu**, Yang Hou, Zhefeng Wang, Xinyu Duan, Zhenghua Li
+- ``COLING 2024`` [High-Order Joint Constituency and Dependency Parsing.](https://aclanthology.org/2024.lrec-main.713.pdf) **Yanggan Gu**, Yang Hou, Zhefeng Wang, Xinyu Duan, Zhenghua Li
 
 # 🎖 Honors and Awards
 - *2023.08* 1st place in the CCL-2023 Chinese AMR Parsing Evaluation Task. [Report](https://aclanthology.org/2023.ccl-3.5/). 
