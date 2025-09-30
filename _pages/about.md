@@ -25,6 +25,8 @@ Hi, my name is Yanggan Gu (辜仰淦). I am currently a research assistant at [I
 
 # 📝 Publications 
 
+_* denotes equal contribution._
+
 - ``NeurIPS 2025 Spotlight`` [InfiFPO: Implicit Model Fusion via Preference Optimization in Large Language Models.](https://arxiv.org/pdf/2505.13878) **Yanggan Gu**, Zhaoyi Yan, Yuanyi Wang, Yiming Zhang, Qi Zhou, Fei Wu, Hongxia Yang
 
 - ``NeurIPS 2025`` [InfiGFusion: Graph-on-Logits Distillation via Efficient Gromov-Wasserstein for Model Fusion.](https://arxiv.org/pdf/2505.13893) Yuanyi Wang, Zhaoyi Yan, Yiming Zhang, Qi Zhou, **Yanggan Gu**, Fei Wu, Hongxia Yang
@@ -33,7 +35,7 @@ Hi, my name is Yanggan Gu (辜仰淦). I am currently a research assistant at [I
 
 - ``ACL 2025 Findings`` [Capturing Nuanced Preferences: Preference-Aligned Distillation for Small Language Models.](https://aclanthology.org/2025.findings-acl.822.pdf) **Yanggan Gu**, Junzhuo Li, Sirui Huang, Xin Zou, Zhenghua Li, Xuming Hu
 
-- ``ACL 2025 Findings`` [StructFact: Reasoning Factual Knowledge from Structured Data with Large Language Models.](https://aclanthology.org/2025.findings-acl.391.pdf) Sirui Huang, **Yanggan Gu**, Zhonghao Li, Xuming Hu, Li Qing, Guandong Xu
+- ``ACL 2025 Findings`` [StructFact: Reasoning Factual Knowledge from Structured Data with Large Language Models.](https://aclanthology.org/2025.findings-acl.391.pdf) Sirui Huang*, **Yanggan Gu***, Zhonghao Li, Xuming Hu, Li Qing, Guandong Xu
 
 - ``SIGIR 2025`` [HyperG: Hypergraph-Enhanced LLMs for Structured Knowledge.](https://dl.acm.org/doi/pdf/10.1145/3726302.3730002) Sirui Huang, Hanqian Li, **Yanggan Gu**, Xuming Hu, Qing Li, Guandong Xu
 
