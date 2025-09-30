@@ -35,7 +35,7 @@ _* denotes equal contribution._
 
 - ``ACL 2025 Findings`` [Capturing Nuanced Preferences: Preference-Aligned Distillation for Small Language Models.](https://aclanthology.org/2025.findings-acl.822.pdf) **Yanggan Gu**, Junzhuo Li, Sirui Huang, Xin Zou, Zhenghua Li, Xuming Hu
 
-- ``ACL 2025 Findings`` [StructFact: Reasoning Factual Knowledge from Structured Data with Large Language Models.](https://aclanthology.org/2025.findings-acl.391.pdf) Sirui Huang*, **Yanggan Gu***, Zhonghao Li, Xuming Hu, Li Qing, Guandong Xu
+- ``ACL 2025 Findings`` [StructFact: Reasoning Factual Knowledge from Structured Data with Large Language Models.](https://aclanthology.org/2025.findings-acl.391.pdf) Sirui Huang\*, **Yanggan Gu\***, Zhonghao Li, Xuming Hu, Li Qing, Guandong Xu
 
 - ``SIGIR 2025`` [HyperG: Hypergraph-Enhanced LLMs for Structured Knowledge.](https://dl.acm.org/doi/pdf/10.1145/3726302.3730002) Sirui Huang, Hanqian Li, **Yanggan Gu**, Xuming Hu, Qing Li, Guandong Xu
 
