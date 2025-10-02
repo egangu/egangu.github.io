@@ -29,7 +29,7 @@ _* denotes equal contribution._
 
 - ``arXiv:2509`` [Model Merging Scaling Laws in Large Language Models.](https://arxiv.org/abs/2509.24244) Yuanyi Wang\*, **Yanggan Gu\***, Yiming Zhang\*, Qi Zhou, Zhaoyi Yan, Congkai Xie, Xinyao Wang, Jianbo Yuan, Hongxia Yang
 
-- ``NeurIPS 2025 Spotlight`` [InfiFPO: Implicit Model Fusion via Preference Optimization in Large Language Models.](https://arxiv.org/pdf/2505.13878) **Yanggan Gu**, Zhaoyi Yan, Yuanyi Wang, Yiming Zhang, Qi Zhou, Fei Wu, Hongxia Yang
+- ``NeurIPS 2025 Spotlight`` [InfiFPO: Implicit Model Fusion via Preference Optimization in Large Language Models.](https://arxiv.org/pdf/2505.13878) **Yanggan Gu**, Yuanyi Wang, Zhaoyi Yan, Yiming Zhang, Qi Zhou, Fei Wu, Hongxia Yang
 
 - ``NeurIPS 2025`` [InfiGFusion: Graph-on-Logits Distillation via Efficient Gromov-Wasserstein for Model Fusion.](https://arxiv.org/pdf/2505.13893) Yuanyi Wang, Zhaoyi Yan, Yiming Zhang, Qi Zhou, **Yanggan Gu**, Fei Wu, Hongxia Yang
 
