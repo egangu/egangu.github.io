@@ -17,21 +17,28 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, my name is Yanggan Gu (辜仰淦). I am currently a research assistant at [InfiX-ai](https://huggingface.co/InfiX-ai), fortunately advised by [Prof. Hongxia Yang](https://www4.comp.polyu.edu.hk/~hongxyang/). Before this, I received my Master’s degree from Soochow University in 2025, fortunately advised by [Prof. Zhenghua Li](https://web.suda.edu.cn/zhli13/). My main research interest focuses on efficient training and preference alignment of LLMs, as well as syntactic and semantic parsing.
+Hi, my name is Yanggan Gu (辜仰淦). I am currently a research assistant at [InfiX-ai](https://huggingface.co/InfiX-ai), fortunately advised by [Prof. Hongxia Yang](https://www4.comp.polyu.edu.hk/~hongxyang/). Before this, I received my Master’s degree from Soochow University in 2025, fortunately advised by [Prof. Zhenghua Li](https://web.suda.edu.cn/zhli13/). 
+
+My research trajectory began with syntactic and semantic parsing and has now shifted to Large Language Models (LLMs). I am particularly interested in **model merging and fusion**, as well as **human-aligned, trustworthy AI**.
 
 # 🔥 News
+
 - *2025.09*: &nbsp;🎉🎉 Two papers have been accepted to NeurIPS 2025!
 - *2025.02*: &nbsp;🎉🎉 Two papers have been accepted to ACL 2025 Findings!
 
-# 📝 Publications 
+# 📝 Publications
 
 _* denotes equal contribution._
+
+**Model Merging&Fusion**
 
 - ``arXiv:2509`` [Model Merging Scaling Laws in Large Language Models.](https://arxiv.org/abs/2509.24244) Yuanyi Wang\*, **Yanggan Gu\***, Yiming Zhang\*, Qi Zhou, Zhaoyi Yan, Congkai Xie, Xinyao Wang, Jianbo Yuan, Hongxia Yang
 
 - ``NeurIPS 2025 Spotlight`` [InfiFPO: Implicit Model Fusion via Preference Optimization in Large Language Models.](https://arxiv.org/pdf/2505.13878) **Yanggan Gu**, Yuanyi Wang, Zhaoyi Yan, Yiming Zhang, Qi Zhou, Fei Wu, Hongxia Yang
 
 - ``NeurIPS 2025`` [InfiGFusion: Graph-on-Logits Distillation via Efficient Gromov-Wasserstein for Model Fusion.](https://arxiv.org/pdf/2505.13893) Yuanyi Wang, Zhaoyi Yan, Yiming Zhang, Qi Zhou, **Yanggan Gu**, Fei Wu, Hongxia Yang
+
+**Human-Aligned and Trustworthy AI**
 
 - ``EMNLP 2025 Main`` [Exploring Response Uncertainty in MLLMs: An Empirical Evaluation under Misleading Scenarios.](https://arxiv.org/pdf/2411.02708) Yunkai Dang, Mengxi Gao, Yibo Yan, Xin Zou, **Yanggan Gu**, Aiwei Liu, Xuming Hu
 
@@ -41,17 +48,22 @@ _* denotes equal contribution._
 
 - ``SIGIR 2025`` [HyperG: Hypergraph-Enhanced LLMs for Structured Knowledge.](https://dl.acm.org/doi/pdf/10.1145/3726302.3730002) Sirui Huang, Hanqian Li, **Yanggan Gu**, Xuming Hu, Qing Li, Guandong Xu
 
+**Syntactic  Parsing**
+
 - ``COLING 2024`` [High-Order Joint Constituency and Dependency Parsing.](https://aclanthology.org/2024.lrec-main.713.pdf) **Yanggan Gu**, Yang Hou, Zhefeng Wang, Xinyu Duan, Zhenghua Li
 
 # 🎖 Honors and Awards
+
 - *2023.08* 1st place in the CCL-2023 Chinese AMR Parsing Evaluation Task. [Report](https://aclanthology.org/2023.ccl-3.5/). 
 - *2021.12* Top 10 Innovative Figures of Guangdong University of Technology. [Sohu News](https://www.sohu.com/a/507610953_121124288)
 - *2021.11* National Encouragement Scholarship. [Link](https://edu.gd.gov.cn/zwgknew/gsgg/content/post_3678694.html)
 - *2021.11* 1st Prize at the 9th “China Software Cup” College Student Design Competition. [Link](https://www.cnsoftbei.com/content-1-565-1.html)
 
 # 📖 Educations
+
 - *2022.09 - 2025.06*, Graduate student at NLP Lab, Soochow University, advised by [Prof. Zhenghua Li](https://web.suda.edu.cn/zhli13/). 
 - *2018.09 - 2022.06*, Undergraduate student at School of Computer Science, Guangdong University of Technology, advised by [Prof. Guangqiang Xie](https://yzw.gdut.edu.cn/info/1120/1879.htm). 
 
 # 💻 Internships
+
 - *2025.06 - now*, [InfiX-ai](https://huggingface.co/InfiX-ai), China.
