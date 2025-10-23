@@ -38,6 +38,8 @@ _* denotes equal contribution._
 
 - ``NeurIPS 2025`` [InfiGFusion: Graph-on-Logits Distillation via Efficient Gromov-Wasserstein for Model Fusion.](https://arxiv.org/pdf/2505.13893) Yuanyi Wang, Zhaoyi Yan, Yiming Zhang, Qi Zhou, **Yanggan Gu**, Fei Wu, Hongxia Yang
 
+- ``Nexus`` [Democratizing AI Through Model Fusion: A Comprehensive Review and Future Directions.](https://www.cell.com/nexus/pdf/S2950-1601(25)00049-X.pdf) Qi Zhou, Yiming Zhang, **Yanggan Gu**, Yuanyi Wang, Zhijie Sang, Zhaoyi Yan, Zhen Li, Shengyu Zhang, Fei Wu, Hongxia Yang
+
 **Human-Aligned and Trustworthy AI**
 
 - ``EMNLP 2025 Main`` [Exploring Response Uncertainty in MLLMs: An Empirical Evaluation under Misleading Scenarios.](https://arxiv.org/pdf/2411.02708) Yunkai Dang, Mengxi Gao, Yibo Yan, Xin Zou, **Yanggan Gu**, Aiwei Liu, Xuming Hu
