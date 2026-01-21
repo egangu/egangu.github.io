@@ -410,3 +410,23 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+/* Full-width content override */
+@media (min-width: $large) {
+  .page {
+    @include span(11 of 12 last);
+    @include prefix(0.5 of 12);
+    @include suffix(0.5 of 12);
+  }
+  
+  .sidebar {
+    @include span(1 of 12);
+  }
+}
+
+/* For maximum content width on very large screens */
+@media (min-width: $x-large) {
+  .page {
+    max-width: calc(100% - 200px); /* Leave space for sidebar */
+  }
+}

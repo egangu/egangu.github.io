@@ -6,6 +6,8 @@
 .page__content {
   font-size: 1.05em;
   line-height: 1.7;
+  width: 100%;
+  max-width: none;
 }
 
 /* Better heading hierarchy */
@@ -139,4 +141,57 @@
   color: #7f8c8d;
   font-size: 1.1em;
   margin-bottom: 1em;
+}
+/* Full-width text alignment fix */
+.page__content {
+  /* Ensure text uses full available width */
+  p, ul, ol, dl, blockquote {
+    max-width: none;
+    width: 100%;
+  }
+  
+  /* Maintain readability with optimal line length */
+p {
+  margin-bottom: 1.2em;
+  width: 100%;
+}
+  
+  /* Better list alignment */
+  ul, ol {
+    padding-left: 2em;
+    margin: 1em 0;
+  }
+  
+  /* Full-width blockquotes */
+  blockquote {
+    margin: 1.5em 0;
+    padding: 1em 1.5em;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+/* Ensure sidebar content doesn't affect main content width */
+.sidebar {
+  /* Keep sidebar at fixed width */
+  flex-shrink: 0;
+}
+
+/* Main content area should use available space */
+.page {
+  flex-grow: 1;
+  max-width: none;
+}
+
+/* Container adjustments for full-width content */
+#main {
+  max-width: none;
+  width: 100%;
+  padding: 0 1em;
+}
+
+@media (min-width: $large) {
+  #main {
+    padding: 0 2em;
+  }
 }
