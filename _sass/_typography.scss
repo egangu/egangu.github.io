@@ -1,0 +1,142 @@
+/* ==========================================================================
+   Typography enhancements
+   ========================================================================== */
+
+/* Improved readability */
+.page__content {
+  font-size: 1.05em;
+  line-height: 1.7;
+}
+
+/* Better heading hierarchy */
+.page__content h1 {
+  margin-top: 2em;
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+.page__content h2 {
+  margin-top: 1.8em;
+  font-weight: 600;
+  color: #34495e;
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 0.3em;
+}
+
+.page__content h3 {
+  margin-top: 1.6em;
+  font-weight: 600;
+  color: #34495e;
+}
+
+/* Enhanced links */
+.page__content a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.page__content a:hover {
+  color: #2980b9;
+  border-bottom-color: #3498db;
+}
+
+/* Better list styling */
+.page__content ul {
+  padding-left: 1.5em;
+}
+
+.page__content li {
+  margin-bottom: 0.8em;
+  line-height: 1.6;
+}
+
+/* Improved code blocks */
+.page__content code {
+  background-color: #f8f9fa;
+  color: #e83e8c;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.page__content pre {
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 6px;
+  padding: 1em;
+  overflow-x: auto;
+}
+
+/* Better blockquotes */
+.page__content blockquote {
+  border-left: 4px solid #3498db;
+  background-color: #f8f9fa;
+  padding: 1em 1.5em;
+  margin: 1.5em 0;
+  font-style: normal;
+  color: #495057;
+}
+
+/* News section styling */
+#🔥-news,
+#📝-publications,
+#🎖-honors-and-awards,
+#📖-educations,
+#💻-internships {
+  margin-top: 2em;
+}
+
+#🔥-news h2,
+#📝-publications h2,
+#🎖-honors-and-awards h2,
+#📖-educations h2,
+#💻-internships h2 {
+  font-size: 1.4em;
+  color: #2c3e50;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+/* Publication list improvements */
+.publication-item {
+  margin-bottom: 1.2em;
+  padding: 0.8em;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+  border-left: 3px solid #3498db;
+  transition: all 0.2s ease;
+}
+
+.publication-item:hover {
+  background-color: #e9ecef;
+  transform: translateX(2px);
+}
+
+/* News items */
+.news-item {
+  margin-bottom: 0.8em;
+  padding-left: 0.5em;
+  border-left: 2px solid #95a5a6;
+}
+
+/* Author profile improvements */
+.author-profile {
+  text-align: center;
+}
+
+.author-profile .author__name {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 0.5em;
+}
+
+.author-profile .author__bio {
+  color: #7f8c8d;
+  font-size: 1.1em;
+  margin-bottom: 1em;
+}
