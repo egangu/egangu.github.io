@@ -15,8 +15,6 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<span class='anchor' id='about-me'></span>
-
 Hi, my name is Yanggan Gu (辜仰淦). I am currently a PhD student at [Hong Kong Polytechnic University (PolyU)](https://www.polyu.edu.hk/), fortunately advised by [Prof. Hongxia Yang](https://www4.comp.polyu.edu.hk/~hongxyang/). Before this, I received my Master’s degree from Soochow University in 2025, fortunately advised by [Prof. Zhenghua Li](https://web.suda.edu.cn/zhli13/). 
 
 My research trajectory began with syntactic and semantic parsing and has now shifted to Large Language Models (LLMs). I am particularly interested in **model merging and fusion**, as well as **human-aligned, trustworthy AI**.
