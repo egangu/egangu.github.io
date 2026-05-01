@@ -21,6 +21,7 @@ My research trajectory began with syntactic and semantic parsing and has now shi
 
 # 🔥 News
 
+- *2026.05*: &nbsp;🎉🎉 Model Merging Scaling Laws in Large Language Models has been accepted to ICML 2026!
 - *2025.09*: &nbsp;🎉🎉 Two papers have been accepted to NeurIPS 2025!
 - *2025.02*: &nbsp;🎉🎉 Two papers have been accepted to ACL 2025 Findings!
 
@@ -30,7 +31,7 @@ _* denotes equal contribution._
 
 **Model Merging&Fusion**
 
-- ``arXiv:2509`` [Model Merging Scaling Laws in Large Language Models.](https://arxiv.org/abs/2509.24244) Yuanyi Wang\*, **Yanggan Gu\***, Yiming Zhang\*, Qi Zhou, Zhaoyi Yan, Congkai Xie, Xinyao Wang, Jianbo Yuan, Hongxia Yang
+- ``ICML 2026`` [Model Merging Scaling Laws in Large Language Models.](https://arxiv.org/abs/2509.24244) Yuanyi Wang\*, **Yanggan Gu\***, Yiming Zhang\*, Qi Zhou, Zhaoyi Yan, Congkai Xie, Xinyao Wang, Jianbo Yuan, Hongxia Yang
 
 - ``NeurIPS 2025 Spotlight`` [InfiFPO: Implicit Model Fusion via Preference Optimization in Large Language Models.](https://arxiv.org/pdf/2505.13878) **Yanggan Gu**, Yuanyi Wang, Zhaoyi Yan, Yiming Zhang, Qi Zhou, Fei Wu, Hongxia Yang
 
