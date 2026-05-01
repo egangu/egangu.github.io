@@ -15,15 +15,28 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
+# 👋 About Me
+
 Hi, my name is Yanggan Gu (辜仰淦). I am currently a PhD student at [Hong Kong Polytechnic University (PolyU)](https://www.polyu.edu.hk/), fortunately advised by [Prof. Hongxia Yang](https://www4.comp.polyu.edu.hk/~hongxyang/). Before this, I received my Master’s degree from Soochow University in 2025, fortunately advised by [Prof. Zhenghua Li](https://web.suda.edu.cn/zhli13/). 
 
 My research trajectory began with syntactic and semantic parsing and has now shifted to Large Language Models (LLMs). I am particularly interested in **model merging and fusion**, as well as **human-aligned, trustworthy AI**.
 
 # 🔬 Research Snapshot
 
-- **Model merging and fusion:** composing, adapting, and reusing LLMs through efficient model composition methods.
-- **Scaling laws for model composition:** understanding how model size, expert number, and domain diversity shape merging performance.
-- **Human-aligned and trustworthy AI:** preference learning, uncertainty estimation, and structured reasoning for reliable LLMs.
+<div class="research-snapshot">
+  <div class="research-pill">
+    <strong>Model Merging &amp; Fusion</strong>
+    <span>Composing, adapting, and reusing LLMs through efficient model composition methods.</span>
+  </div>
+  <div class="research-pill">
+    <strong>Scaling Laws</strong>
+    <span>Understanding how model size, expert number, and domain diversity shape merging performance.</span>
+  </div>
+  <div class="research-pill">
+    <strong>Trustworthy AI</strong>
+    <span>Preference learning, uncertainty estimation, and structured reasoning for reliable LLMs.</span>
+  </div>
+</div>
 
 # 🔥 News
 
@@ -33,13 +46,40 @@ My research trajectory began with syntactic and semantic parsing and has now shi
 
 # 🌟 Selected Publications
 
-- ``ICML 2026`` **Model Merging Scaling Laws in Large Language Models.** A scaling-law study that turns model merging into predictable, budget-aware planning. [[Paper](https://arxiv.org/abs/2509.24244)] [[Project](https://infix-ai.com/research/ScalingLaws)] [[Code](https://github.com/InfiXAI/Merging-Scaling-Law)]
-
-- ``NeurIPS 2025 Spotlight`` **InfiFPO: Implicit Model Fusion via Preference Optimization in Large Language Models.** A preference-optimization framework for fusing source-model behaviors while aligning a pivot model. [[Paper](https://arxiv.org/pdf/2505.13878)] [[Code](https://github.com/InfiXAI/InfiFPO)] [[Model](https://huggingface.co/InfiX-ai/InfiFPO-14B)]
-
-- ``NeurIPS 2025`` **InfiGFusion: Graph-on-Logits Distillation via Efficient Gromov-Wasserstein for Model Fusion.** A structure-aware model-fusion framework using graph-on-logits distillation. [[Paper](https://arxiv.org/pdf/2505.13893)] [[Project](https://infix-ai.com/research/infigfusion/)] [[Code](https://github.com/InfiXAI/InfiGFusion)] [[Model](https://huggingface.co/InfiX-ai/InfiGFusion-14B)]
-
-- ``ACL 2025 Findings`` **Capturing Nuanced Preferences: Preference-Aligned Distillation for Small Language Models.** A distillation method that transfers nuanced preference distributions from LLMs to smaller models. [[Paper](https://aclanthology.org/2025.findings-acl.822.pdf)]
+<div class="selected-publications">
+  <article class="selected-publication">
+    <div class="selected-publication__venue"><span class="venue-badge venue-icml">ICML 2026</span></div>
+    <div class="selected-publication__body">
+      <h3><a href="https://arxiv.org/abs/2509.24244">Model Merging Scaling Laws in Large Language Models.</a></h3>
+      <p>A scaling-law study that turns model merging into predictable, budget-aware planning.</p>
+      <div class="paper-links"><a href="https://arxiv.org/abs/2509.24244">Paper</a><a href="https://infix-ai.com/research/ScalingLaws">Project</a><a href="https://github.com/InfiXAI/Merging-Scaling-Law">Code</a></div>
+    </div>
+  </article>
+  <article class="selected-publication">
+    <div class="selected-publication__venue"><span class="venue-badge venue-spotlight">NeurIPS 2025 Spotlight</span></div>
+    <div class="selected-publication__body">
+      <h3><a href="https://arxiv.org/pdf/2505.13878">InfiFPO: Implicit Model Fusion via Preference Optimization in Large Language Models.</a></h3>
+      <p>A preference-optimization framework for fusing source-model behaviors while aligning a pivot model.</p>
+      <div class="paper-links"><a href="https://arxiv.org/pdf/2505.13878">Paper</a><a href="https://github.com/InfiXAI/InfiFPO">Code</a><a href="https://huggingface.co/InfiX-ai/InfiFPO-14B">Model</a></div>
+    </div>
+  </article>
+  <article class="selected-publication">
+    <div class="selected-publication__venue"><span class="venue-badge venue-neurips">NeurIPS 2025</span></div>
+    <div class="selected-publication__body">
+      <h3><a href="https://arxiv.org/pdf/2505.13893">InfiGFusion: Graph-on-Logits Distillation via Efficient Gromov-Wasserstein for Model Fusion.</a></h3>
+      <p>A structure-aware model-fusion framework using graph-on-logits distillation.</p>
+      <div class="paper-links"><a href="https://arxiv.org/pdf/2505.13893">Paper</a><a href="https://infix-ai.com/research/infigfusion/">Project</a><a href="https://github.com/InfiXAI/InfiGFusion">Code</a><a href="https://huggingface.co/InfiX-ai/InfiGFusion-14B">Model</a></div>
+    </div>
+  </article>
+  <article class="selected-publication">
+    <div class="selected-publication__venue"><span class="venue-badge venue-acl">ACL 2025 Findings</span></div>
+    <div class="selected-publication__body">
+      <h3><a href="https://aclanthology.org/2025.findings-acl.822.pdf">Capturing Nuanced Preferences: Preference-Aligned Distillation for Small Language Models.</a></h3>
+      <p>A distillation method that transfers nuanced preference distributions from LLMs to smaller models.</p>
+      <div class="paper-links"><a href="https://aclanthology.org/2025.findings-acl.822.pdf">Paper</a></div>
+    </div>
+  </article>
+</div>
 
 # 📝 Publications
 
@@ -47,27 +87,27 @@ _* denotes equal contribution._
 
 **Model Merging&Fusion**
 
-- ``ICML 2026`` [Model Merging Scaling Laws in Large Language Models.](https://arxiv.org/abs/2509.24244) Yuanyi Wang\*, **Yanggan Gu\***, Yiming Zhang\*, Qi Zhou, Zhaoyi Yan, Congkai Xie, Xinyao Wang, Jianbo Yuan, Hongxia Yang
+- <span class="venue-badge venue-icml">ICML 2026</span> [Model Merging Scaling Laws in Large Language Models.](https://arxiv.org/abs/2509.24244) Yuanyi Wang\*, **Yanggan Gu\***, Yiming Zhang\*, Qi Zhou, Zhaoyi Yan, Congkai Xie, Xinyao Wang, Jianbo Yuan, Hongxia Yang
 
-- ``NeurIPS 2025 Spotlight`` [InfiFPO: Implicit Model Fusion via Preference Optimization in Large Language Models.](https://arxiv.org/pdf/2505.13878) **Yanggan Gu**, Yuanyi Wang, Zhaoyi Yan, Yiming Zhang, Qi Zhou, Fei Wu, Hongxia Yang
+- <span class="venue-badge venue-spotlight">NeurIPS 2025 Spotlight</span> [InfiFPO: Implicit Model Fusion via Preference Optimization in Large Language Models.](https://arxiv.org/pdf/2505.13878) **Yanggan Gu**, Yuanyi Wang, Zhaoyi Yan, Yiming Zhang, Qi Zhou, Fei Wu, Hongxia Yang
 
-- ``NeurIPS 2025`` [InfiGFusion: Graph-on-Logits Distillation via Efficient Gromov-Wasserstein for Model Fusion.](https://arxiv.org/pdf/2505.13893) Yuanyi Wang, Zhaoyi Yan, Yiming Zhang, Qi Zhou, **Yanggan Gu**, Fei Wu, Hongxia Yang
+- <span class="venue-badge venue-neurips">NeurIPS 2025</span> [InfiGFusion: Graph-on-Logits Distillation via Efficient Gromov-Wasserstein for Model Fusion.](https://arxiv.org/pdf/2505.13893) Yuanyi Wang, Zhaoyi Yan, Yiming Zhang, Qi Zhou, **Yanggan Gu**, Fei Wu, Hongxia Yang
 
-- ``Nexus`` [Democratizing AI Through Model Fusion: A Comprehensive Review and Future Directions.](https://www.cell.com/nexus/pdf/S2950-1601(25)00049-X.pdf) Qi Zhou, Yiming Zhang, **Yanggan Gu**, Yuanyi Wang, Zhijie Sang, Zhaoyi Yan, Zhen Li, Shengyu Zhang, Fei Wu, Hongxia Yang
+- <span class="venue-badge">Nexus</span> [Democratizing AI Through Model Fusion: A Comprehensive Review and Future Directions.](https://www.cell.com/nexus/pdf/S2950-1601(25)00049-X.pdf) Qi Zhou, Yiming Zhang, **Yanggan Gu**, Yuanyi Wang, Zhijie Sang, Zhaoyi Yan, Zhen Li, Shengyu Zhang, Fei Wu, Hongxia Yang
 
 **Human-Aligned and Trustworthy AI**
 
-- ``EMNLP 2025 Main`` [Exploring Response Uncertainty in MLLMs: An Empirical Evaluation under Misleading Scenarios.](https://arxiv.org/pdf/2411.02708) Yunkai Dang, Mengxi Gao, Yibo Yan, Xin Zou, **Yanggan Gu**, Aiwei Liu, Xuming Hu
+- <span class="venue-badge venue-emnlp">EMNLP 2025 Main</span> [Exploring Response Uncertainty in MLLMs: An Empirical Evaluation under Misleading Scenarios.](https://arxiv.org/pdf/2411.02708) Yunkai Dang, Mengxi Gao, Yibo Yan, Xin Zou, **Yanggan Gu**, Aiwei Liu, Xuming Hu
 
-- ``ACL 2025 Findings`` [Capturing Nuanced Preferences: Preference-Aligned Distillation for Small Language Models.](https://aclanthology.org/2025.findings-acl.822.pdf) **Yanggan Gu**, Junzhuo Li, Sirui Huang, Xin Zou, Zhenghua Li, Xuming Hu
+- <span class="venue-badge venue-acl">ACL 2025 Findings</span> [Capturing Nuanced Preferences: Preference-Aligned Distillation for Small Language Models.](https://aclanthology.org/2025.findings-acl.822.pdf) **Yanggan Gu**, Junzhuo Li, Sirui Huang, Xin Zou, Zhenghua Li, Xuming Hu
 
-- ``ACL 2025 Findings`` [StructFact: Reasoning Factual Knowledge from Structured Data with Large Language Models.](https://aclanthology.org/2025.findings-acl.391.pdf) Sirui Huang\*, **Yanggan Gu\***, Zhonghao Li, Xuming Hu, Li Qing, Guandong Xu
+- <span class="venue-badge venue-acl">ACL 2025 Findings</span> [StructFact: Reasoning Factual Knowledge from Structured Data with Large Language Models.](https://aclanthology.org/2025.findings-acl.391.pdf) Sirui Huang\*, **Yanggan Gu\***, Zhonghao Li, Xuming Hu, Li Qing, Guandong Xu
 
-- ``SIGIR 2025`` [HyperG: Hypergraph-Enhanced LLMs for Structured Knowledge.](https://dl.acm.org/doi/pdf/10.1145/3726302.3730002) Sirui Huang, Hanqian Li, **Yanggan Gu**, Xuming Hu, Qing Li, Guandong Xu
+- <span class="venue-badge venue-sigir">SIGIR 2025</span> [HyperG: Hypergraph-Enhanced LLMs for Structured Knowledge.](https://dl.acm.org/doi/pdf/10.1145/3726302.3730002) Sirui Huang, Hanqian Li, **Yanggan Gu**, Xuming Hu, Qing Li, Guandong Xu
 
 **Syntactic  Parsing**
 
-- ``COLING 2024`` [High-Order Joint Constituency and Dependency Parsing.](https://aclanthology.org/2024.lrec-main.713.pdf) **Yanggan Gu**, Yang Hou, Zhefeng Wang, Xinyu Duan, Zhenghua Li
+- <span class="venue-badge">COLING 2024</span> [High-Order Joint Constituency and Dependency Parsing.](https://aclanthology.org/2024.lrec-main.713.pdf) **Yanggan Gu**, Yang Hou, Zhefeng Wang, Xinyu Duan, Zhenghua Li
 
 # 🎖 Honors and Awards
 
@@ -80,7 +120,7 @@ _* denotes equal contribution._
 
 - Reviewer: ICLR 2026, NeurIPS 2026.
 
-# 📖 Educations
+# 📖 Education
 
 - *2022.09 - 2025.06*, Graduate student at NLP Lab, Soochow University, advised by [Prof. Zhenghua Li](https://web.suda.edu.cn/zhli13/). 
 - *2018.09 - 2022.06*, Undergraduate student at School of Computer Science, Guangdong University of Technology, advised by [Prof. Guangqiang Xie](https://yzw.gdut.edu.cn/info/1120/1879.htm). 
