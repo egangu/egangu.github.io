@@ -19,11 +19,27 @@ Hi, my name is Yanggan Gu (辜仰淦). I am currently a PhD student at [Hong Kon
 
 My research trajectory began with syntactic and semantic parsing and has now shifted to Large Language Models (LLMs). I am particularly interested in **model merging and fusion**, as well as **human-aligned, trustworthy AI**.
 
+# 🔬 Research Snapshot
+
+- **Model merging and fusion:** composing, adapting, and reusing LLMs through efficient model composition methods.
+- **Scaling laws for model composition:** understanding how model size, expert number, and domain diversity shape merging performance.
+- **Human-aligned and trustworthy AI:** preference learning, uncertainty estimation, and structured reasoning for reliable LLMs.
+
 # 🔥 News
 
 - *2026.05*: &nbsp;🎉🎉 Model Merging Scaling Laws in Large Language Models has been accepted to ICML 2026!
 - *2025.09*: &nbsp;🎉🎉 Two papers have been accepted to NeurIPS 2025!
 - *2025.02*: &nbsp;🎉🎉 Two papers have been accepted to ACL 2025 Findings!
+
+# 🌟 Selected Publications
+
+- ``ICML 2026`` **Model Merging Scaling Laws in Large Language Models.** A scaling-law study that turns model merging into predictable, budget-aware planning. [[Paper](https://arxiv.org/abs/2509.24244)] [[Project](https://infix-ai.com/research/ScalingLaws)] [[Code](https://github.com/InfiXAI/Merging-Scaling-Law)]
+
+- ``NeurIPS 2025 Spotlight`` **InfiFPO: Implicit Model Fusion via Preference Optimization in Large Language Models.** A preference-optimization framework for fusing source-model behaviors while aligning a pivot model. [[Paper](https://arxiv.org/pdf/2505.13878)] [[Code](https://github.com/InfiXAI/InfiFPO)] [[Model](https://huggingface.co/InfiX-ai/InfiFPO-14B)]
+
+- ``NeurIPS 2025`` **InfiGFusion: Graph-on-Logits Distillation via Efficient Gromov-Wasserstein for Model Fusion.** A structure-aware model-fusion framework using graph-on-logits distillation. [[Paper](https://arxiv.org/pdf/2505.13893)] [[Project](https://infix-ai.com/research/infigfusion/)] [[Code](https://github.com/InfiXAI/InfiGFusion)] [[Model](https://huggingface.co/InfiX-ai/InfiGFusion-14B)]
+
+- ``ACL 2025 Findings`` **Capturing Nuanced Preferences: Preference-Aligned Distillation for Small Language Models.** A distillation method that transfers nuanced preference distributions from LLMs to smaller models. [[Paper](https://aclanthology.org/2025.findings-acl.822.pdf)]
 
 # 📝 Publications
 
@@ -59,6 +75,10 @@ _* denotes equal contribution._
 - *2021.12* Top 10 Innovative Figures of Guangdong University of Technology. [Sohu News](https://www.sohu.com/a/507610953_121124288)
 - *2021.11* National Encouragement Scholarship. [Link](https://edu.gd.gov.cn/zwgknew/gsgg/content/post_3678694.html)
 - *2021.11* 1st Prize at the 9th “China Software Cup” College Student Design Competition. [Link](https://www.cnsoftbei.com/content-1-565-1.html)
+
+# 🤝 Service
+
+- Reviewer: ICLR 2026, NeurIPS 2026.
 
 # 📖 Educations
 
