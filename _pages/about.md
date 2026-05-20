@@ -64,7 +64,7 @@ _* denotes equal contribution._
 
 # 🪴 Service {#service}
 
-- Reviewer: ICLR 2026, NeurIPS 2026.
+- Reviewer: ICML 2026, ICLR 2026, NeurIPS 2026.
 
 # 🎓 Education {#education}
 
