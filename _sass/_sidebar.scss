@@ -252,10 +252,14 @@
 
 .author__urls_sm{
   padding: .25em;
-  font-size: 1.75em;
-  display: block;
+  font-size: 1.3em;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: .25em;
+  align-items: center;
   a {
     color: inherit;
+    line-height: 1;
     text-decoration: none;
     &:hover {
       text-decoration: underline;
