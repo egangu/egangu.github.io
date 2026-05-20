@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yanggan Gu"
-description              : "Do the right thing."
+description              : "Model Merging & Fusion, Trustworthy AI"
 repository               : "egangu/egangu.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yanggan Gu"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "Hong Kong Polytechnic University"
+  bio              : "PhD Student @ PolyU"
   location         : "Hong Kong, China"
   employer         :
   pubmed           : 
