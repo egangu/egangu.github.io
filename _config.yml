@@ -24,15 +24,8 @@ author:
   name             : "Yanggan Gu"
   avatar           : "images/android-chrome-512x512.png"
   bio              : "PhD Student @ PolyU"
-  research_interests:
-    - "Model Merging"
-    - "Model Fusion"
-    - "Scaling Laws"
-    - "Trustworthy AI"
   academic_service:
-    - "ICML 2026 Reviewer"
-    - "ICLR 2026 Reviewer"
-    - "NeurIPS 2026 Reviewer"
+    - "ICML/ICLR/NeurIPS Reviewer"
   location         : "Hong Kong, China"
   employer         :
   pubmed           : 
