@@ -144,6 +144,19 @@
   }
 }
 
+.author__tagline {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1em;
+  margin-bottom: 1em;
+  font-weight: 600;
+  line-height: 1.35;
+
+  span {
+    white-space: nowrap;
+  }
+}
+
 .author__urls-wrapper {
   position: relative;
   display: table-cell;

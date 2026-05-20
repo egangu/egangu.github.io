@@ -19,7 +19,7 @@ redirect_from:
 
 Hi, my name is **Yanggan Gu (辜仰淦)**. I am currently a PhD student at [Hong Kong Polytechnic University (PolyU)](https://www.polyu.edu.hk/), advised by [Prof. Hongxia Yang](https://www4.comp.polyu.edu.hk/~hongxyang/). Before this, I received my Master's degree from Soochow University in 2025, advised by [Prof. Zhenghua Li](https://web.suda.edu.cn/zhli13/).
 
-My research trajectory began with syntactic and semantic parsing and has now shifted to Large Language Models (LLMs). My current research focuses on **model merging and fusion**, **scaling laws**, and **human-aligned, trustworthy AI**.
+My research trajectory began with syntactic and semantic parsing and has now shifted to Large Language Models (LLMs). My current research focuses on **model fusion** and **trustworthy AI**.
 
 # 🔥 News {#news}
 
