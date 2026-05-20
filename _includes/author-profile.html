@@ -238,9 +238,8 @@
 
       {% if author.academic_service %}
         <div class="author__extra-section">
-          <h4 class="author__extra-title">Academic Service</h4>
+          <h4 class="author__extra-title"><i class="fas fa-fw fa-clipboard-check" aria-hidden="true"></i> Reviewer</h4>
           <div class="author__service-card">
-            <span class="author__service-role">Reviewer</span>
             <div class="author__service-venues">
             {% for service in author.academic_service %}
               <span class="author__service-chip">{{ service }}</span>
