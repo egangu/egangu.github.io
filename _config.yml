@@ -25,7 +25,9 @@ author:
   avatar           : "images/android-chrome-512x512.png"
   bio              : "PhD Student @ PolyU"
   academic_service:
-    - "ICML/ICLR/NeurIPS Reviewer"
+    - "ICML"
+    - "ICLR"
+    - "NeurIPS"
   location         : "Hong Kong, China"
   employer         :
   pubmed           : 

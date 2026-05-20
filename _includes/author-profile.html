@@ -232,11 +232,14 @@
       {% if author.academic_service %}
         <div class="author__extra-section">
           <h4 class="author__extra-title">Academic Service</h4>
-          <ul class="author__extra-list">
+          <div class="author__service-card">
+            <span class="author__service-role">Reviewer</span>
+            <div class="author__service-venues">
             {% for service in author.academic_service %}
-              <li>{{ service }}</li>
+              <span class="author__service-chip">{{ service }}</span>
             {% endfor %}
-          </ul>
+            </div>
+          </div>
         </div>
       {% endif %}
     </div>
