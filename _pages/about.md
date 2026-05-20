@@ -76,9 +76,9 @@ My research trajectory began with syntactic and semantic parsing and has now shi
 
 # 🎓 Education {#education}
 
-- 2025.09 - Present, PhD student at [Hong Kong Polytechnic University (PolyU)](https://www.polyu.edu.hk/), advised by [Prof. Hongxia Yang](https://www4.comp.polyu.edu.hk/~hongxyang/).
-- 2022.09 - 2025.06, Graduate student at NLP Lab, Soochow University, advised by [Prof. Zhenghua Li](https://web.suda.edu.cn/zhli13/).
-- 2018.09 - 2022.06, Undergraduate student at School of Computer Science, Guangdong University of Technology, advised by [Prof. Guangqiang Xie](https://yzw.gdut.edu.cn/info/1120/1879.htm).
+- 2025.09 - Present, Ph.D. Student, The Hong Kong Polytechnic University.
+- 2022.09 - 2025.06, M.S., Soochow University.
+- 2018.09 - 2022.06, B.S., Guangdong University of Technology.
 
 # 💻 Internships {#internships}
 
