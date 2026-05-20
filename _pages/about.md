@@ -29,11 +29,9 @@ My research trajectory began with syntactic and semantic parsing and has now shi
 
 # 📝 Publications {#publications}
 
-_(Co-1st) denotes equal contribution._
-
 ### 2026
 
-- 📄 Yuanyi Wang (Co-1st), <strong class="author-highlight">Yanggan Gu (Co-1st)</strong>, Yiming Zhang (Co-1st), Qi Zhou, Zhaoyi Yan, Congkai Xie, Xinyao Wang, Jianbo Yuan, Hongxia Yang. Model Merging Scaling Laws in Large Language Models. In ICML 2026. 🔗[[Paper]](https://arxiv.org/abs/2509.24244) [[Project]](https://infix-ai.com/research/ScalingLaws) [[Code]](https://github.com/InfiXAI/Merging-Scaling-Law)
+- 📄 Yuanyi Wang, <strong class="author-highlight">Yanggan Gu (Co-1st)</strong>, Yiming Zhang, Qi Zhou, Zhaoyi Yan, Congkai Xie, Xinyao Wang, Jianbo Yuan, Hongxia Yang. Model Merging Scaling Laws in Large Language Models. In ICML 2026. 🔗[[Paper]](https://arxiv.org/abs/2509.24244) [[Project]](https://infix-ai.com/research/ScalingLaws) [[Code]](https://github.com/InfiXAI/Merging-Scaling-Law)
 
 ### 2025
 
@@ -47,7 +45,7 @@ _(Co-1st) denotes equal contribution._
 
 - 📄 <strong class="author-highlight">Yanggan Gu</strong>, Junzhuo Li, Sirui Huang, Xin Zou, Zhenghua Li, Xuming Hu. Capturing Nuanced Preferences: Preference-Aligned Distillation for Small Language Models. In ACL 2025 Findings. 🔗[[Paper]](https://aclanthology.org/2025.findings-acl.822.pdf)
 
-- 📄 Sirui Huang (Co-1st), <strong class="author-highlight">Yanggan Gu (Co-1st)</strong>, Zhonghao Li, Xuming Hu, Li Qing, Guandong Xu. StructFact: Reasoning Factual Knowledge from Structured Data with Large Language Models. In ACL 2025 Findings. 🔗[[Paper]](https://aclanthology.org/2025.findings-acl.391.pdf)
+- 📄 Sirui Huang, <strong class="author-highlight">Yanggan Gu (Co-1st)</strong>, Zhonghao Li, Xuming Hu, Li Qing, Guandong Xu. StructFact: Reasoning Factual Knowledge from Structured Data with Large Language Models. In ACL 2025 Findings. 🔗[[Paper]](https://aclanthology.org/2025.findings-acl.391.pdf)
 
 - 📄 Sirui Huang, Hanqian Li, <strong class="author-highlight">Yanggan Gu</strong>, Xuming Hu, Qing Li, Guandong Xu. HyperG: Hypergraph-Enhanced LLMs for Structured Knowledge. In SIGIR 2025. 🔗[[Paper]](https://dl.acm.org/doi/pdf/10.1145/3726302.3730002)
 
