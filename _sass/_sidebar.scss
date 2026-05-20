@@ -131,10 +131,12 @@
 .sidebar .author__name {
   font-family: $sans-serif;
   font-size: 1.2em;
+  font-weight: 700;
 }
 
 .author__bio {
   margin: 0;
+  font-weight: 600;
 
   @include breakpoint($large) {
     margin-top: 10px;
@@ -231,6 +233,7 @@
   }
 
   li {
+    font-weight: 600;
     white-space: nowrap;
   }
 
@@ -242,6 +245,7 @@
     padding-bottom: 2px;
     color: inherit;
     font-size: $type-size-6;
+    font-weight: 600;
     text-decoration: none;
 
     &:hover {
