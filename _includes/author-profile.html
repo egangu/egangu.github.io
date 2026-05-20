@@ -113,6 +113,16 @@
       {% if author.googlescholar %}
         <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
       {% endif %}
+      {% if author.academic_service %}
+        <li class="author__service-item">
+          <div class="author__service-heading"><i class="fas fa-fw fa-clipboard-check" aria-hidden="true"></i> Reviewer</div>
+          <div class="author__service-venues">
+          {% for service in author.academic_service %}
+            <span class="author__service-chip">{{ service }}</span>
+          {% endfor %}
+          </div>
+        </li>
+      {% endif %}
       {% if author.pubmed %}
         <li><a href="{{ author.pubmed }}"><i class="ai ai-pubmed-square ai-fw"></i> PubMed</a></li>
       {% endif %}
@@ -223,7 +233,7 @@
     </div>
   </div>
 
-  {% if author.research_interests or author.academic_service %}
+  {% if author.research_interests %}
     <div class="author__extra">
       {% if author.research_interests %}
         <div class="author__extra-section">
@@ -233,19 +243,6 @@
               <li>{{ interest }}</li>
             {% endfor %}
           </ul>
-        </div>
-      {% endif %}
-
-      {% if author.academic_service %}
-        <div class="author__extra-section">
-          <h4 class="author__extra-title"><i class="fas fa-fw fa-clipboard-check" aria-hidden="true"></i> Reviewer</h4>
-          <div class="author__service-card">
-            <div class="author__service-venues">
-            {% for service in author.academic_service %}
-              <span class="author__service-chip">{{ service }}</span>
-            {% endfor %}
-            </div>
-          </div>
         </div>
       {% endif %}
     </div>

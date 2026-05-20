@@ -321,17 +321,22 @@
   }
 }
 
-.author__service-card {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 0.45em;
-}
-
 .author__service-venues {
   display: flex;
   flex-wrap: wrap;
   gap: 0.35em;
+  padding-left: 1.45em;
+  margin-top: -0.05em;
+  margin-bottom: 0.45em;
+}
+
+.author__service-heading {
+  display: block;
+  padding-top: 2px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  font-size: $type-size-6;
+  font-weight: 600;
 }
 
 .author__service-chip {
