@@ -215,4 +215,30 @@
       {% endif %}
     </div>
   </div>
+
+  {% if author.research_interests or author.academic_service %}
+    <div class="author__extra">
+      {% if author.research_interests %}
+        <div class="author__extra-section">
+          <h4 class="author__extra-title">Research Interests</h4>
+          <ul class="author__extra-list">
+            {% for interest in author.research_interests %}
+              <li>{{ interest }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+
+      {% if author.academic_service %}
+        <div class="author__extra-section">
+          <h4 class="author__extra-title">Academic Service</h4>
+          <ul class="author__extra-list">
+            {% for service in author.academic_service %}
+              <li>{{ service }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+    </div>
+  {% endif %}
 </div>

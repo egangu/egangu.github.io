@@ -273,3 +273,37 @@
     display: none;
   }
 }
+
+.author__extra {
+  display: none;
+
+  @include breakpoint($large) {
+    display: block;
+    margin-top: 1.25em;
+    font-family: $sans-serif;
+    font-size: $type-size-6;
+    font-weight: 600;
+    line-height: 1.35;
+  }
+}
+
+.author__extra-section {
+  margin-top: 1.1em;
+}
+
+.author__extra-title {
+  margin: 0 0 0.45em;
+  font-size: 0.9em;
+  font-weight: 700;
+}
+
+.author__extra-list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+
+  li {
+    margin-bottom: 0.35em;
+    white-space: normal;
+  }
+}

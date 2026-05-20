@@ -33,13 +33,15 @@ My research trajectory began with syntactic and semantic parsing and has now shi
 
 - 📄 [C8] Yuanyi Wang, <strong class="author-highlight">Yanggan Gu (Co-1st)</strong>, Yiming Zhang, Qi Zhou, Zhaoyi Yan, Congkai Xie, Xinyao Wang, Jianbo Yuan, Hongxia Yang. Model Merging Scaling Laws in Large Language Models. In ICML 2026. 🔗[[Paper]](https://arxiv.org/abs/2509.24244) [[Project]](https://infix-ai.com/research/ScalingLaws) [[Code]](https://github.com/InfiXAI/Merging-Scaling-Law)
 
+- 📄 [J2] Qi Zhou, Yiming Zhang, <strong class="author-highlight">Yanggan Gu</strong>, Yuanyi Wang, Zhaoyi Yan, Zhen Li, Chi Yung Chung, Hongxia Yang. Model Fusion for Scalable and Sustainable Artificial Intelligence: A Review and Outlook. In Journal of Modern Power Systems and Clean Energy, 2026. 🔗[[Paper]](https://doi.org/10.35833/MPCE.2025.000973)
+
 - 📄 [Pre1] Yuanyi Wang, <strong class="author-highlight">Yanggan Gu</strong>, Zihao Wang, Kunxi Li, Yifan Yang, Zhaoyi Yan, Congkai Xie, Jianmin Wu, Hongxia Yang. MergePipe: A Budget-Aware Parameter Management System for Scalable LLM Merging. In arXiv 2026. 🔗[[Paper]](https://arxiv.org/abs/2602.13273) [[Code]](https://github.com/wyy-code/mergepipe)
 
 - 📄 [Pre2] Yuanyi Wang, Yifan Yang, Su Lu, <strong class="author-highlight">Yanggan Gu</strong>, Pengkai Wang, Wenjun Wang, Zhaoyi Yan, Congkai Xie, Jianmin Wu, Jialun Cao, Shing-Chi Cheung, Hongxia Yang. Geometry Conflict: Explaining and Controlling Forgetting in LLM Continual Post-Training. In arXiv 2026. 🔗[[Paper]](https://arxiv.org/abs/2605.09608) [[Code]](https://github.com/wyy-code/GCWM)
 
 - 📄 [Pre3] <strong class="author-highlight">Yanggan Gu</strong>, Shuo Cai, Zihao Wang, Wenjun Wang, Yuanyi Wang, Pengkai Wang, Sirui Huang, Su Lu, Jianmin Wu, Hongxia Yang. FeatCal: Feature Calibration for Post-Merging Models. In arXiv 2026. 🔗[[Paper]](https://arxiv.org/abs/2605.13030) [[Code]](https://github.com/egangu/featcal)
 
-- 📄 [Pre4] Wenjun Wang, <strong class="author-highlight">Yanggan Gu</strong>, Shuo Cai, Yuanyi Wang, Pengkai Wang, Jianmin Wu, Hongxia Yang. E-PMQ: Expert-Guided Post-Merge Quantization with Merged-Weight Anchoring. In arXiv 2026. 🔗[[Paper]](https://arxiv.org/abs/2605.16882) [[Code]](https://github.com/wwjzhy/E-PMQ)
+- 📄 [Pre4] Wenjun Wang, <strong class="author-highlight">Yanggan Gu (Co-1st)</strong>, Shuo Cai, Yuanyi Wang, Pengkai Wang, Jianmin Wu, Hongxia Yang. E-PMQ: Expert-Guided Post-Merge Quantization with Merged-Weight Anchoring. In arXiv 2026. 🔗[[Paper]](https://arxiv.org/abs/2605.16882) [[Code]](https://github.com/wwjzhy/E-PMQ)
 
 ### 2025
 
