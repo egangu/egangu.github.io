@@ -354,3 +354,8 @@
 .author__visit-counter {
   margin-top: 0.35em;
 }
+
+.author__visit-counter #busuanzi_value_site_pv {
+  color: $info-color;
+  font-weight: 700;
+}
