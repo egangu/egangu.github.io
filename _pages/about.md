@@ -35,7 +35,7 @@ My research trajectory began with syntactic and semantic parsing and has now shi
 
 - [J2] 📚 Qi Zhou, Yiming Zhang, <strong class="author-highlight">Yanggan Gu</strong>, Yuanyi Wang, Zhaoyi Yan, Zhen Li, Chi Yung Chung, Hongxia Yang. <em>Model Fusion for Scalable and Sustainable Artificial Intelligence: A Review and Outlook.</em> In <strong>Journal of Modern Power Systems and Clean Energy</strong>, 2026. 🔗[[Paper]](https://doi.org/10.35833/MPCE.2025.000973)
 
-- [Pre1] 🧪 Yuanyi Wang, <strong class="author-highlight">Yanggan Gu</strong>, Zihao Wang, Kunxi Li, Yifan Yang, Zhaoyi Yan, Congkai Xie, Jianmin Wu, Hongxia Yang. <em>MergePipe: A Budget-Aware Parameter Management System for Scalable LLM Merging.</em> In arXiv 2026. 🔗[[Paper]](https://arxiv.org/abs/2602.13273) 💻[[Code]](https://github.com/wyy-code/mergepipe)
+- [W1] 📝 Yuanyi Wang, <strong class="author-highlight">Yanggan Gu</strong>, Su Lu, Yifan Yang, Zhaoyi Yan, Congkai Xie, Jianmin Wu, Hongxia Yang. <em>Access Sets Matter: Budgeting Expert Reads for Scalable Weight-Space Model Merging.</em> In <strong>ICML 2026 Workshop on Weight-Space Symmetries</strong> <span class="pub-badge">Poster</span>. 🔗[[Paper]](https://openreview.net/forum?id=aQIOppFWrT) 💻[[Code]](https://github.com/wyy-code/mergepipe)
 
 - [Pre2] 🧪 Yuanyi Wang, Yifan Yang, Su Lu, <strong class="author-highlight">Yanggan Gu</strong>, Pengkai Wang, Wenjun Wang, Zhaoyi Yan, Congkai Xie, Jianmin Wu, Jialun Cao, Shing-Chi Cheung, Hongxia Yang. <em>Geometry Conflict: Explaining and Controlling Forgetting in LLM Continual Post-Training.</em> In arXiv 2026. 🔗[[Paper]](https://arxiv.org/abs/2605.09608) 💻[[Code]](https://github.com/wyy-code/GCWM)
 
