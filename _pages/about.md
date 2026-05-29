@@ -17,7 +17,7 @@ redirect_from:
 
 <span class="anchor" id="about-me"></span>
 
-Hi, my name is **Yanggan Gu (辜仰淦, [jɑŋ kan ku])**. I am currently a PhD student at [Hong Kong Polytechnic University (PolyU)](https://www.polyu.edu.hk/), advised by [Prof. Hongxia Yang](https://www4.comp.polyu.edu.hk/~hongxyang/). Before this, I received my Master's degree from Soochow University in 2025, advised by [Prof. Zhenghua Li](https://web.suda.edu.cn/zhli13/).
+Hi, my name is **Yanggan Gu ( [jɑŋ kan ku]，辜仰淦 in Chinese)**. I am currently a PhD student at [Hong Kong Polytechnic University (PolyU)](https://www.polyu.edu.hk/), advised by [Prof. Hongxia Yang](https://www4.comp.polyu.edu.hk/~hongxyang/). Before this, I received my Master's degree from Soochow University in 2025, advised by [Prof. Zhenghua Li](https://web.suda.edu.cn/zhli13/).
 
 My research trajectory began with syntactic and semantic parsing and has now shifted to Large Language Models (LLMs). My current research focuses on **model fusion** and **trustworthy AI**. I have published 8 top-tier conference papers, including ICML, NeurIPS, ACL, EMNLP, SIGIR, and COLING. I also serve as a reviewer for ICML, ICLR, and NeurIPS.
 
