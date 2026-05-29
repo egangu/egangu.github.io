@@ -37,7 +37,7 @@ My research trajectory began with syntactic and semantic parsing and has now shi
 
 - [W1] 📝 Yuanyi Wang, <strong class="author-highlight">Yanggan Gu</strong>, Su Lu, Yifan Yang, Zhaoyi Yan, Congkai Xie, Jianmin Wu, Hongxia Yang. <em>Access Sets Matter: Budgeting Expert Reads for Scalable Weight-Space Model Merging.</em> In <strong>ICML 2026 Workshop on Weight-Space Symmetries</strong>. 🔗[[Paper]](https://openreview.net/forum?id=aQIOppFWrT) 💻[[Code]](https://github.com/wyy-code/mergepipe)
 
-- [Pre1] 🧪 Shuo Cai, <strong class="author-highlight">Yanggan Gu (Co-1st)</strong>, Zihao Wang, Yuanyi Wang, Yibo Yan, Wenjun Wang, Yuhang Liu, Guanghao Zhu, Sirui Huang, Ming Li, Hongxia Yang. <em>From Parameters to Behaviors: A Survey of Model Fusion for Large Language Models.</em> In Preprints.org 2026. 🔗[[Paper]](https://doi.org/10.20944/preprints202605.2007.v1)
+- [Pre1] 🧪 Shuo Cai, <strong class="author-highlight">Yanggan Gu (Co-1st)</strong>, Zihao Wang, Yuanyi Wang, Yibo Yan, Wenjun Wang, Yuhang Liu, Guanghao Zhu, Sirui Huang, Ming Li, Hongxia Yang. <em>From Parameters to Behaviors: A Survey of Model Fusion for Large Language Models.</em> In Preprints.org 2026. 🔗[[Paper]](https://www.preprints.org/frontend/manuscript/412c5de33e20b4c7364a754d6fcab767/download_pub)
 
 - [Pre2] 🧪 Yuanyi Wang, Yifan Yang, Su Lu, <strong class="author-highlight">Yanggan Gu</strong>, Pengkai Wang, Wenjun Wang, Zhaoyi Yan, Congkai Xie, Jianmin Wu, Jialun Cao, Shing-Chi Cheung, Hongxia Yang. <em>Geometry Conflict: Explaining and Controlling Forgetting in LLM Continual Post-Training.</em> In arXiv 2026. 🔗[[Paper]](https://arxiv.org/abs/2605.09608) 💻[[Code]](https://github.com/wyy-code/GCWM)
 
