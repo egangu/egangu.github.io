@@ -45,6 +45,8 @@ My research trajectory began with syntactic and semantic parsing and has now shi
 
 - [Pre4] 🧪 Wenjun Wang, <strong class="author-highlight">Yanggan Gu (Co-1st)</strong>, Shuo Cai, Yuanyi Wang, Pengkai Wang, Jianmin Wu, Hongxia Yang. <em>E-PMQ: Expert-Guided Post-Merge Quantization with Merged-Weight Anchoring.</em> In arXiv 2026. 🔗[[Paper]](https://arxiv.org/abs/2605.16882) 💻[[Code]](https://github.com/wwjzhy/E-PMQ)
 
+- [Pre5] 🧪 Yuanyi Wang, Su Lu, <strong class="author-highlight">Yanggan Gu</strong>, Pengkai Wang, Yifan Yang, Zhaoyi Yan, Congkai Xie, Jianmin Wu, Hongxia Yang. <em>Not All Disagreement Is Learnable: Token Teachability in On-Policy Distillation.</em> In arXiv 2026. 🔗[[Paper]](https://arxiv.org/abs/2605.26844) 💻[[Code]](https://github.com/wyy-code/TA-OPD)
+
 ### 2025
 
 - [C6] 📝 <strong class="author-highlight">Yanggan Gu</strong>, Yuanyi Wang, Zhaoyi Yan, Yiming Zhang, Qi Zhou, Fei Wu, Hongxia Yang. <em>InfiFPO: Implicit Model Fusion via Preference Optimization in Large Language Models.</em> In <strong>NeurIPS 2025</strong> <span class="pub-badge">Spotlight</span>. 🔗[[Paper]](https://arxiv.org/pdf/2505.13878) 💻[[Code]](https://github.com/InfiXAI/InfiFPO) 🤗[[Model]](https://huggingface.co/InfiX-ai/InfiFPO-14B)
