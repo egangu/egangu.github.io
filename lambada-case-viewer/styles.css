@@ -407,6 +407,21 @@ h1 {
   font-size: 13px;
 }
 
+.prompt-box.zh {
+  margin-top: 6px;
+  background: #fbfcfd;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.65;
+}
+
+.prompt-label {
+  margin: 8px 0 4px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 .comparison-grid {
   display: grid;
   grid-template-columns: repeat(5, minmax(180px, 1fr));

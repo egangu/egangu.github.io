@@ -81,7 +81,7 @@ function searchableText(caseItem) {
   const generated = caseResults(caseItem)
     .map(({ result }) => `${result.predicted_word_normalized || ""} ${result.generated_text || ""}`)
     .join(" ");
-  return `${caseItem.case} ${caseItem.target_text || ""} ${caseItem.prompt_text || ""} ${generated}`.toLowerCase();
+  return `${caseItem.case} ${caseItem.target_text || ""} ${caseItem.prompt_text || ""} ${caseItem.prompt_text_zh || ""} ${generated}`.toLowerCase();
 }
 
 function filteredCases() {
@@ -271,7 +271,10 @@ function renderDetail(caseItem) {
         <h3>Prompt</h3>
         <span class="pill">${caseItem.char_len_prompt || caseItem.prompt_text.length} chars</span>
       </div>
+      <div class="prompt-label">English source</div>
       <div class="prompt-box">${escapeHtml(caseItem.prompt_text)}</div>
+      <div class="prompt-label">中文翻译</div>
+      <div class="prompt-box zh">${escapeHtml(caseItem.prompt_text_zh || "暂无中文翻译")}</div>
 
       <div class="section-title">
         <h3>Backend Comparison</h3>
@@ -294,7 +297,7 @@ function render() {
 
 function resetFilters() {
   els.searchInput.value = "";
-  els.sortSelect.value = "index";
+  els.sortSelect.value = "tie_desc";
   els.stepSelect.value = "all";
   els.tieOnly.checked = false;
   els.eosOnly.checked = false;
