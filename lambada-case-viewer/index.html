@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LAMBADA Case Viewer</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div>
+        <h1>LAMBADA Case Viewer</h1>
+        <p id="datasetMeta">Loading data...</p>
+      </div>
+      <div class="status-strip" id="statusStrip"></div>
+    </header>
+
+    <section class="summary-band" id="summaryBand" aria-label="Experiment summary"></section>
+
+    <section class="controls" aria-label="Case filters">
+      <label class="search-field">
+        <span>Search</span>
+        <input id="searchInput" type="search" placeholder="case, target, prompt, generated text" autocomplete="off" />
+      </label>
+      <label>
+        <span>Sort</span>
+        <select id="sortSelect">
+          <option value="index">case index</option>
+          <option value="tie_desc">tie count</option>
+          <option value="correct_asc">fewest correct</option>
+          <option value="divergence">backend divergence</option>
+        </select>
+      </label>
+      <label>
+        <span>Tie step</span>
+        <select id="stepSelect">
+          <option value="all">all</option>
+          <option value="1">step 1</option>
+          <option value="2">step 2</option>
+          <option value="3">step 3</option>
+          <option value="4">step 4</option>
+          <option value="5">step 5</option>
+        </select>
+      </label>
+      <label class="check-control"><input id="tieOnly" type="checkbox" /> has tie</label>
+      <label class="check-control"><input id="eosOnly" type="checkbox" /> EOS tie</label>
+      <label class="check-control"><input id="incorrectOnly" type="checkbox" /> any wrong</label>
+      <label class="check-control"><input id="divergenceOnly" type="checkbox" /> divergent</label>
+    </section>
+
+    <main class="workspace">
+      <aside class="case-pane" aria-label="Filtered cases">
+        <div class="pane-title">
+          <strong id="caseCount">0 cases</strong>
+          <button id="resetFilters" type="button">Reset</button>
+        </div>
+        <div class="case-list" id="caseList"></div>
+      </aside>
+
+      <section class="detail-pane" id="detailPane" aria-label="Case details">
+        <div class="empty-state">Select a case to inspect details.</div>
+      </section>
+    </main>
+
+    <script src="./data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
