@@ -9,9 +9,14 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: google-scholar-citations
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v6
 
@@ -33,7 +38,19 @@ jobs:
 
           cd google_scholar_crawler
           python -m pip install -r requirements.txt
-          python main.py
+
+          for attempt in 1 2 3; do
+            if timeout 120 python main.py; then
+              break
+            fi
+            if [[ "$attempt" -eq 3 ]]; then
+              echo "::error::Google Scholar did not respond after 3 attempts"
+              exit 1
+            fi
+            echo "::warning::Google Scholar attempt ${attempt} failed; retrying"
+            sleep $((attempt * 15))
+          done
+
           cd results
           git init
           git config --local user.name "${GITHUB_ACTOR}"
