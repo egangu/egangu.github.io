@@ -1,9 +1,9 @@
 name: Get Citation Data
 
 on:
-  page_build:
-  schedule:
-    - cron: "0 8 * * *"
+  # Google Scholar routinely blocks requests from shared GitHub-hosted runners.
+  # Keep this workflow manual so a transient scraper failure cannot mark the
+  # repository unhealthy when the site does not currently display citation data.
   workflow_dispatch:
 
 permissions:
