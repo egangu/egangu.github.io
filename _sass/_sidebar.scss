@@ -321,36 +321,6 @@
   }
 }
 
-.author__service-venues {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.35em;
-  padding-left: 1.45em;
-  margin-top: -0.05em;
-  margin-bottom: 0.45em;
-}
-
-.author__service-heading {
-  display: block;
-  padding-top: 2px;
-  padding-right: 5px;
-  padding-bottom: 2px;
-  font-size: $type-size-6;
-  font-weight: 600;
-}
-
-.author__service-chip {
-  display: inline-flex;
-  padding: 0.12em 0.5em;
-  color: $text-color;
-  font-size: 0.86em;
-  font-weight: 700;
-  line-height: 1.25;
-  background: $code-background-color;
-  border: 1px solid $border-color;
-  border-radius: 4px;
-}
-
 .author__visit-counter {
   margin-top: 0.35em;
 }

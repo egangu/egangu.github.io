@@ -113,16 +113,6 @@
       {% if author.googlescholar %}
         <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
       {% endif %}
-      {% if author.academic_service %}
-        <li class="author__service-item">
-          <div class="author__service-heading"><i class="fas fa-fw fa-clipboard-check" aria-hidden="true"></i> Reviewer</div>
-          <div class="author__service-venues">
-          {% for service in author.academic_service %}
-            <span class="author__service-chip">{{ service }}</span>
-          {% endfor %}
-          </div>
-        </li>
-      {% endif %}
       <li class="author__visit-counter" id="busuanzi_container_site_pv">
         <i class="fas fa-fw fa-chart-line" aria-hidden="true"></i> Visits: <span id="busuanzi_value_site_pv">--</span>
       </li>
