@@ -9,6 +9,7 @@
 title                    : "Yanggan Gu"
 description              : "Model Fusion, Trustworthy AI"
 repository               : "egangu/egangu.github.io"
+google_scholar_stats_enabled : false
 google_scholar_stats_use_cdn : true
 
 # google analytics
