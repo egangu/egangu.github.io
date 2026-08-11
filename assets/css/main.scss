@@ -141,3 +141,72 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+/* CV page */
+.cv-page__header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+
+    h1 {
+        margin: 0 0 .35rem;
+        padding: 0;
+        border: 0;
+    }
+
+    p {
+        margin: 0;
+        color: $gray;
+    }
+}
+
+.cv-page__actions {
+    display: flex;
+    flex: 0 0 auto;
+    gap: .5rem;
+
+    .btn {
+        margin: 0;
+        white-space: nowrap;
+        text-decoration: none;
+    }
+}
+
+.cv-page__preview {
+    display: block;
+    width: 100%;
+    min-height: 78vh;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    background: $lighter-gray;
+}
+
+.cv-page__fallback {
+    display: none;
+}
+
+@include breakpoint(max-width $medium) {
+    .cv-page__header,
+    .cv-page__actions {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .cv-page__actions .btn {
+        width: 100%;
+    }
+
+    .cv-page__preview {
+        display: none;
+    }
+
+    .cv-page__fallback {
+        display: block;
+        padding: 1rem;
+        border: 1px solid $border-color;
+        border-radius: $border-radius;
+        background: $lighter-gray;
+    }
+}
