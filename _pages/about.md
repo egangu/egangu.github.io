@@ -76,7 +76,7 @@ My research trajectory began with syntactic and semantic parsing and has now shi
 
 # 🪴 Service {#service}
 
-- Reviewer: ICML 2026, ICLR 2026, NeurIPS 2026.
+- Reviewer: ICML, ICLR, NeurIPS, ARR, TMLR.
 
 # 🎓 Education {#education}
 
