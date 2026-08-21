@@ -36,7 +36,7 @@ _软件工程学士。_ #h(1fr) GPA 4.0（前 1%） \
 _研究方向_：Model Fusion、LLM Alignment、LLM Reasoning
 
 *Trustworthy LLMs*，_研究助理_ #h(1fr) 2024/06 - 2025/03 \
-#link("https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/information-hub/artificial-intelligence/")[香港科技大学（广州）人工智能学域]。 #h(1fr) 导师：#link("https://scholar.google.com/citations?user=dbBKbXoAAAAJ&hl=en")[胡许明教授] \
+#link("https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/information-hub/artificial-intelligence/")[香港科技大学（广州）人工智能学域]。 #h(1fr) 导师：#link("https://scholar.google.com/citations?user=dbBKbXoAAAAJ&hl=en")[胡旭明教授] \
 _研究方向_：LLM Alignment、Factual Reasoning in LLMs、Knowledge Distillation
 
 *Syntactic Parsing*，_硕士研究生_ #h(1fr) 2022/09 - 2025/06 \
