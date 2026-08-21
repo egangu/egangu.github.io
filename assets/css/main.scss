@@ -187,6 +187,10 @@ h1:before, .anchor:before {
     display: none;
 }
 
+.cv-page__version + .cv-page__version {
+    margin-top: 2rem;
+}
+
 @include breakpoint(max-width $medium) {
     .cv-page__header,
     .cv-page__actions {
