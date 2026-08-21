@@ -19,10 +19,11 @@ redirect_from:
 
 Hi, my name is **Yanggan Gu ( [jɑŋ kan ku]，辜仰淦 in Chinese)**. I am currently a PhD student at [Hong Kong Polytechnic University (PolyU)](https://www.polyu.edu.hk/), advised by [Prof. Hongxia Yang](https://www4.comp.polyu.edu.hk/~hongxyang/). Before this, I received my Master's degree from Soochow University in 2025, advised by [Prof. Zhenghua Li](https://web.suda.edu.cn/zhli13/).
 
-My research trajectory began with syntactic and semantic parsing and has now shifted to Large Language Models (LLMs). My current research focuses on **model fusion** and **trustworthy AI**. I have published 8 top-tier conference papers, including ICML, NeurIPS, ACL, EMNLP, SIGIR, and COLING. I also serve as a reviewer for ICML, ICLR, NeurIPS, ARR, and TMLR.
+My research trajectory began with syntactic and semantic parsing and has now shifted to Large Language Models (LLMs). My current research focuses on **model fusion** and **trustworthy AI**. I have published 9 top-tier conference papers, including ICML, NeurIPS, ACL, EMNLP, SIGIR, and COLING. I also serve as a reviewer for ICML, ICLR, NeurIPS, ARR, and TMLR.
 
 # 🔥 News {#news}
 
+- *2026.08*: &nbsp;🎉🎉 One paper 📑 From Parameters to Behaviors: A Survey of Model Fusion for Large Language Models has been accepted to **EMNLP 2026 Findings**!
 - *2026.05*: &nbsp;🎉🎉 One paper 📑 Model Merging Scaling Laws in Large Language Models has been accepted to **ICML 2026**!
 - *2025.09*: &nbsp;🎉🎉 Two papers have been accepted to **NeurIPS 2025**, including one Spotlight!
 - *2025.02*: &nbsp;🎉🎉 Two papers have been accepted to **ACL 2025 Findings**!
@@ -31,21 +32,21 @@ My research trajectory began with syntactic and semantic parsing and has now shi
 
 ### 2026
 
+- [C9] 📝 Shuo Cai, <strong class="author-highlight">Yanggan Gu (Co-1st)</strong>, Zihao Wang, Yuanyi Wang, Yibo Yan, Wenjun Wang, Yuhang Liu, Guanghao Zhu, Sirui Huang, Ming Li, Hongxia Yang. <em>From Parameters to Behaviors: A Survey of Model Fusion for Large Language Models.</em> In <strong>EMNLP 2026 Findings</strong>. 🔗[[Paper]](https://www.preprints.org/frontend/manuscript/412c5de33e20b4c7364a754d6fcab767/download_pub)
+
 - [C8] 📝 Yuanyi Wang, <strong class="author-highlight">Yanggan Gu (Co-1st)</strong>, Yiming Zhang, Qi Zhou, Zhaoyi Yan, Congkai Xie, Xinyao Wang, Jianbo Yuan, Hongxia Yang. <em>Model Merging Scaling Laws in Large Language Models.</em> In <strong>ICML 2026</strong>. 🔗[[Paper]](https://arxiv.org/abs/2509.24244) 🌐[[Project]](https://infix-ai.com/research/ScalingLaws) 💻[[Code]](https://github.com/InfiXAI/Merging-Scaling-Law)
 
 - [J2] 📚 Qi Zhou, Yiming Zhang, <strong class="author-highlight">Yanggan Gu</strong>, Yuanyi Wang, Zhaoyi Yan, Zhen Li, Chi Yung Chung, Hongxia Yang. <em>Model Fusion for Scalable and Sustainable Artificial Intelligence: A Review and Outlook.</em> In <strong>Journal of Modern Power Systems and Clean Energy</strong>, 2026. 🔗[[Paper]](https://doi.org/10.35833/MPCE.2025.000973)
 
 - [W1] 📝 Yuanyi Wang, <strong class="author-highlight">Yanggan Gu</strong>, Su Lu, Yifan Yang, Zhaoyi Yan, Congkai Xie, Jianmin Wu, Hongxia Yang. <em>Access Sets Matter: Budgeting Expert Reads for Scalable Weight-Space Model Merging.</em> In <strong>ICML 2026 Workshop on Weight-Space Symmetries</strong>. 🔗[[Paper]](https://openreview.net/forum?id=aQIOppFWrT) 💻[[Code]](https://github.com/wyy-code/mergepipe)
 
-- [Pre1] 🧪 Shuo Cai, <strong class="author-highlight">Yanggan Gu (Co-1st)</strong>, Zihao Wang, Yuanyi Wang, Yibo Yan, Wenjun Wang, Yuhang Liu, Guanghao Zhu, Sirui Huang, Ming Li, Hongxia Yang. <em>From Parameters to Behaviors: A Survey of Model Fusion for Large Language Models.</em> In Preprints.org 2026. 🔗[[Paper]](https://www.preprints.org/frontend/manuscript/412c5de33e20b4c7364a754d6fcab767/download_pub)
+- [Pre1] 🧪 Yuanyi Wang, Yifan Yang, Su Lu, <strong class="author-highlight">Yanggan Gu</strong>, Pengkai Wang, Wenjun Wang, Zhaoyi Yan, Congkai Xie, Jianmin Wu, Jialun Cao, Shing-Chi Cheung, Hongxia Yang. <em>Geometry Conflict: Explaining and Controlling Forgetting in LLM Continual Post-Training.</em> In arXiv 2026. 🔗[[Paper]](https://arxiv.org/abs/2605.09608) 💻[[Code]](https://github.com/wyy-code/GCWM)
 
-- [Pre2] 🧪 Yuanyi Wang, Yifan Yang, Su Lu, <strong class="author-highlight">Yanggan Gu</strong>, Pengkai Wang, Wenjun Wang, Zhaoyi Yan, Congkai Xie, Jianmin Wu, Jialun Cao, Shing-Chi Cheung, Hongxia Yang. <em>Geometry Conflict: Explaining and Controlling Forgetting in LLM Continual Post-Training.</em> In arXiv 2026. 🔗[[Paper]](https://arxiv.org/abs/2605.09608) 💻[[Code]](https://github.com/wyy-code/GCWM)
+- [Pre2] 🧪 <strong class="author-highlight">Yanggan Gu</strong>, Shuo Cai, Zihao Wang, Wenjun Wang, Yuanyi Wang, Pengkai Wang, Sirui Huang, Su Lu, Jianmin Wu, Hongxia Yang. <em>FeatCal: Feature Calibration for Post-Merging Models.</em> In arXiv 2026. 🔗[[Paper]](https://arxiv.org/abs/2605.13030) 💻[[Code]](https://github.com/egangu/featcal)
 
-- [Pre3] 🧪 <strong class="author-highlight">Yanggan Gu</strong>, Shuo Cai, Zihao Wang, Wenjun Wang, Yuanyi Wang, Pengkai Wang, Sirui Huang, Su Lu, Jianmin Wu, Hongxia Yang. <em>FeatCal: Feature Calibration for Post-Merging Models.</em> In arXiv 2026. 🔗[[Paper]](https://arxiv.org/abs/2605.13030) 💻[[Code]](https://github.com/egangu/featcal)
+- [Pre3] 🧪 Wenjun Wang, <strong class="author-highlight">Yanggan Gu (Co-1st)</strong>, Shuo Cai, Yuanyi Wang, Pengkai Wang, Jianmin Wu, Hongxia Yang. <em>E-PMQ: Expert-Guided Post-Merge Quantization with Merged-Weight Anchoring.</em> In arXiv 2026. 🔗[[Paper]](https://arxiv.org/abs/2605.16882) 💻[[Code]](https://github.com/wwjzhy/E-PMQ)
 
-- [Pre4] 🧪 Wenjun Wang, <strong class="author-highlight">Yanggan Gu (Co-1st)</strong>, Shuo Cai, Yuanyi Wang, Pengkai Wang, Jianmin Wu, Hongxia Yang. <em>E-PMQ: Expert-Guided Post-Merge Quantization with Merged-Weight Anchoring.</em> In arXiv 2026. 🔗[[Paper]](https://arxiv.org/abs/2605.16882) 💻[[Code]](https://github.com/wwjzhy/E-PMQ)
-
-- [Pre5] 🧪 Yuanyi Wang, Su Lu, <strong class="author-highlight">Yanggan Gu</strong>, Pengkai Wang, Yifan Yang, Zhaoyi Yan, Congkai Xie, Jianmin Wu, Hongxia Yang. <em>Not All Disagreement Is Learnable: Token Teachability in On-Policy Distillation.</em> In arXiv 2026. 🔗[[Paper]](https://arxiv.org/abs/2605.26844) 💻[[Code]](https://github.com/wyy-code/TA-OPD)
+- [Pre4] 🧪 Yuanyi Wang, Su Lu, <strong class="author-highlight">Yanggan Gu</strong>, Pengkai Wang, Yifan Yang, Zhaoyi Yan, Congkai Xie, Jianmin Wu, Hongxia Yang. <em>Not All Disagreement Is Learnable: Token Teachability in On-Policy Distillation.</em> In arXiv 2026. 🔗[[Paper]](https://arxiv.org/abs/2605.26844) 💻[[Code]](https://github.com/wyy-code/TA-OPD)
 
 ### 2025
 
@@ -80,7 +81,7 @@ My research trajectory began with syntactic and semantic parsing and has now shi
 
 # 🎓 Education {#education}
 
-- 2025.09 - Present, Ph.D. Student, The Hong Kong Polytechnic University.
+- 2026.01 - Present, Ph.D. Student, The Hong Kong Polytechnic University.
 - 2022.09 - 2025.06, M.S., Soochow University.
 - 2018.09 - 2022.06, B.S., Guangdong University of Technology.
 
