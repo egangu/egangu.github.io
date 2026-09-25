@@ -19,11 +19,11 @@ redirect_from:
 
 Hi, my name is **Yanggan Gu ( [jɑŋ kan ku]，辜仰淦 in Chinese)**. I am currently a PhD student at [Hong Kong Polytechnic University (PolyU)](https://www.polyu.edu.hk/), advised by [Prof. Hongxia Yang](https://www4.comp.polyu.edu.hk/~hongxyang/). Before this, I received my Master's degree from Soochow University in 2025, advised by [Prof. Zhenghua Li](https://web.suda.edu.cn/zhli13/).
 
-My research trajectory began with syntactic and semantic parsing and has now shifted to Large Language Models (LLMs). My current research focuses on **model fusion** and **trustworthy AI**. I have published 11 top-tier conference papers, including ICML, NeurIPS, ACL, EMNLP, SIGIR, and COLING. I also serve as a reviewer for ICML, ICLR, NeurIPS, ARR, and TMLR.
+My research trajectory began with syntactic and semantic parsing and has now shifted to Large Language Models (LLMs). My current research focuses on **model fusion** and **trustworthy AI**. I have published 12 top-tier conference papers, including ICML, NeurIPS, ACL, EMNLP, SIGIR, and COLING. I also serve as a reviewer for ICML, ICLR, NeurIPS, ARR, and TMLR.
 
 # 🔥 News {#news}
 
-- *2026.09*: &nbsp;🎉🎉 Two papers have been accepted to **NeurIPS 2026**: **FeatCal** (Spotlight) and **Geometry Conflict** (Poster)!
+- *2026.09*: &nbsp;🎉🎉 Three papers have been accepted to **NeurIPS 2026**: **FeatCal** (Spotlight), **Geometry Conflict** (Poster), and **NPCBench** (Evaluations and Datasets Track, Poster)!
 - *2026.08*: &nbsp;🎉🎉 One paper 📑 From Parameters to Behaviors: A Survey of Model Fusion for Large Language Models has been accepted to **EMNLP 2026 Findings**!
 - *2026.05*: &nbsp;🎉🎉 One paper 📑 Model Merging Scaling Laws in Large Language Models has been accepted to **ICML 2026**!
 - *2025.09*: &nbsp;🎉🎉 Two papers have been accepted to **NeurIPS 2025**, including one Spotlight!
@@ -32,6 +32,8 @@ My research trajectory began with syntactic and semantic parsing and has now shi
 # 📝 Publications {#publications}
 
 ### 2026
+
+- [C12] 📝 Pengkai Wang, Wei-Wei Zhang, Yan Li, Min Tang, Zhitian Hou, Zeyu Liu, Guanghao Zhu, Yuanyi Wang, <strong class="author-highlight">Yanggan Gu</strong>, Wenjun Wang, Minheng Ni, Congkai Xie, Zhijie Sang, Jianmin Wu, Ying Sun, et al. <em>NPCBench: A Clinical Apprenticeship Benchmark for Guideline-Constrained Care-Pathway Reasoning in Nasopharyngeal Carcinoma.</em> In <strong>NeurIPS 2026 Evaluations and Datasets Track</strong> (Poster).
 
 - [C11] 📝 <strong class="author-highlight">Yanggan Gu</strong>, Shuo Cai, Zihao Wang, Wenjun Wang, Yuanyi Wang, Pengkai Wang, Sirui Huang, Su Lu, Jianmin Wu, Hongxia Yang. <em>FeatCal: Feature Calibration for Post-Merging Models.</em> In <strong>NeurIPS 2026</strong> <span class="pub-badge">Spotlight</span>. 🔗[[Paper]](https://arxiv.org/abs/2605.13030) 💻[[Code]](https://github.com/egangu/featcal)
 
