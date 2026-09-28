@@ -57,6 +57,10 @@ _Research Topic_: Linguistic Structure Prediction, Text2SQL (maintaining #link("
 == Selected Publications
 #chiline()
 
+#link("https://arxiv.org/abs/2605.13030")[*FeatCal: Feature Calibration for Post-Merging Models*] #link("https://github.com/egangu/featcal")[[Code]] \
+_First Author_ #h(1fr) *NeurIPS* 2026 Spotlight (CCF-A) \
+Calibrates merged models layer by layer with closed-form updates to reduce feature drift without gradient descent.
+
 #link("https://arxiv.org/abs/2509.24244")[*Model Merging Scaling Laws in Large Language Models*] #link("https://github.com/InfiXAI/Merging-Scaling-Law")[[Code]] \
 _Co-first Author_ #h(1fr) *ICML* 2026 (CCF-A) \
 Develops scaling laws that predict model-merging performance across model sizes, expert counts, and data regimes.

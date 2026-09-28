@@ -6,7 +6,7 @@
   margin: (x: 0.9cm, y: 1.1cm),
 )
 
-#set par(justify: true)
+#set par(justify: true, leading: 0.55em)
 
 #let chiline() = { v(-3pt); line(length: 100%); v(-5pt) }
 
@@ -45,6 +45,10 @@ _研究方向_：Linguistic Structure Prediction、Text2SQL（维护 #link("http
 
 == 代表性论文
 #chiline()
+
+#link("https://arxiv.org/abs/2605.13030")[*FeatCal: Feature Calibration for Post-Merging Models*] #link("https://github.com/egangu/featcal")[[Code]] \
+_第一作者_ #h(1fr) *NeurIPS* 2026 Spotlight（CCF-A） \
+通过逐层闭式更新校准合并模型，降低 feature drift，无需梯度下降。
 
 #link("https://arxiv.org/abs/2509.24244")[*Model Merging Scaling Laws in Large Language Models*] #link("https://github.com/InfiXAI/Merging-Scaling-Law")[[Code]] \
 _共同第一作者_ #h(1fr) *ICML* 2026（CCF-A） \
