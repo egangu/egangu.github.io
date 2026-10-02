@@ -63,11 +63,11 @@ _Research Topic_: Linguistic Structure Prediction, Text2SQL (maintaining #link("
 // 2026: ~1.3%, publicly reported by authors; conference-wide official breakdown not yet found.
 // https://homes.cs.washington.edu/~zzhihan/
 #link("https://arxiv.org/abs/2605.13030")[*FeatCal: Feature Calibration for Post-Merging Models*] #link("https://github.com/egangu/featcal")[[Code]] \
-_First Author_ #h(1fr) *NeurIPS* 2026 Spotlight (Top ≈1.3%; CCF-A) \
+_First Author_ #h(1fr) *NeurIPS* 2026 Spotlight (top ～1.3%; CCF-A) \
 Calibrates merged models layer by layer with closed-form updates to reduce feature drift without gradient descent.
 
 #link("https://arxiv.org/pdf/2505.13878")[*InfiFPO: Implicit Model Fusion via Preference Optimization in Large Language Models*] #link("https://github.com/InfiXAI/InfiFPO")[[Code]] \
-_First Author_ #h(1fr) *NeurIPS* 2025 Spotlight (Top ≈3.5%; CCF-A) \
+_First Author_ #h(1fr) *NeurIPS* 2025 Spotlight (top ～3.5%; CCF-A) \
 Introduces sequence-level probability fusion through preference optimization and validates it on 11 benchmarks.
 
 #link("https://arxiv.org/abs/2509.24244")[*Model Merging Scaling Laws in Large Language Models*] #link("https://github.com/InfiXAI/Merging-Scaling-Law")[[Code]] \

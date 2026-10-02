@@ -35,7 +35,7 @@ My research trajectory began with syntactic and semantic parsing and has now shi
 
 - [C12] 📝 Pengkai Wang, Wei-Wei Zhang, Yan Li, Min Tang, Zhitian Hou, Zeyu Liu, Guanghao Zhu, Yuanyi Wang, <strong class="author-highlight">Yanggan Gu</strong>, Wenjun Wang, Minheng Ni, Congkai Xie, Zhijie Sang, Jianmin Wu, Ying Sun, Hongxia Yang. <em>NPCBench: A Clinical Apprenticeship Benchmark for Guideline-Constrained Care-Pathway Reasoning in Nasopharyngeal Carcinoma.</em> In <strong>NeurIPS 2026 Evaluations and Datasets Track</strong>.
 
-- [C11] 📝 <strong class="author-highlight">Yanggan Gu</strong>, Shuo Cai, Zihao Wang, Wenjun Wang, Yuanyi Wang, Pengkai Wang, Sirui Huang, Su Lu, Jianmin Wu, Hongxia Yang. <em>FeatCal: Feature Calibration for Post-Merging Models.</em> In <strong>NeurIPS 2026</strong> <span class="pub-badge">Spotlight</span>. 🔗[[Paper]](https://arxiv.org/abs/2605.13030) 💻[[Code]](https://github.com/egangu/featcal)
+- [C11] 📝 <strong class="author-highlight">Yanggan Gu</strong>, Shuo Cai, Zihao Wang, Wenjun Wang, Yuanyi Wang, Pengkai Wang, Sirui Huang, Su Lu, Jianmin Wu, Hongxia Yang. <em>FeatCal: Feature Calibration for Post-Merging Models.</em> In <strong>NeurIPS 2026</strong> <span class="pub-badge">Spotlight</span> (top ～1.3%). 🔗[[Paper]](https://arxiv.org/abs/2605.13030) 💻[[Code]](https://github.com/egangu/featcal)
 
 - [C10] 📝 Yuanyi Wang, Yifan Yang, Su Lu, <strong class="author-highlight">Yanggan Gu</strong>, Pengkai Wang, Wenjun Wang, Zhaoyi Yan, Congkai Xie, Jianmin Wu, Jialun Cao, Shing-Chi Cheung, Hongxia Yang. <em>Geometry Conflict: Explaining and Controlling Forgetting in LLM Continual Post-Training.</em> In <strong>NeurIPS 2026</strong>. 🔗[[Paper]](https://arxiv.org/abs/2605.09608) 💻[[Code]](https://github.com/wyy-code/GCWM)
 
@@ -53,7 +53,7 @@ My research trajectory began with syntactic and semantic parsing and has now shi
 
 ### 2025
 
-- [C6] 📝 <strong class="author-highlight">Yanggan Gu</strong>, Yuanyi Wang, Zhaoyi Yan, Yiming Zhang, Qi Zhou, Fei Wu, Hongxia Yang. <em>InfiFPO: Implicit Model Fusion via Preference Optimization in Large Language Models.</em> In <strong>NeurIPS 2025</strong> <span class="pub-badge">Spotlight</span>. 🔗[[Paper]](https://arxiv.org/pdf/2505.13878) 💻[[Code]](https://github.com/InfiXAI/InfiFPO) 🤗[[Model]](https://huggingface.co/InfiX-ai/InfiFPO-14B)
+- [C6] 📝 <strong class="author-highlight">Yanggan Gu</strong>, Yuanyi Wang, Zhaoyi Yan, Yiming Zhang, Qi Zhou, Fei Wu, Hongxia Yang. <em>InfiFPO: Implicit Model Fusion via Preference Optimization in Large Language Models.</em> In <strong>NeurIPS 2025</strong> <span class="pub-badge">Spotlight</span> (top ～3.5%). 🔗[[Paper]](https://arxiv.org/pdf/2505.13878) 💻[[Code]](https://github.com/InfiXAI/InfiFPO) 🤗[[Model]](https://huggingface.co/InfiX-ai/InfiFPO-14B)
 
 - [C7] 📝 Yuanyi Wang, Zhaoyi Yan, Yiming Zhang, Qi Zhou, <strong class="author-highlight">Yanggan Gu</strong>, Fei Wu, Hongxia Yang. <em>InfiGFusion: Graph-on-Logits Distillation via Efficient Gromov-Wasserstein for Model Fusion.</em> In <strong>NeurIPS 2025</strong>. 🔗[[Paper]](https://arxiv.org/pdf/2505.13893) 🌐[[Project]](https://infix-ai.com/research/infigfusion/) 💻[[Code]](https://github.com/InfiXAI/InfiGFusion) 🤗[[Model]](https://huggingface.co/InfiX-ai/InfiGFusion-14B)
 
