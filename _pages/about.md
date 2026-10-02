@@ -39,7 +39,7 @@ My research trajectory began with syntactic and semantic parsing and has now shi
 
 - [C10] 📝 Yuanyi Wang, Yifan Yang, Su Lu, <strong class="author-highlight">Yanggan Gu</strong>, Pengkai Wang, Wenjun Wang, Zhaoyi Yan, Congkai Xie, Jianmin Wu, Jialun Cao, Shing-Chi Cheung, Hongxia Yang. <em>Geometry Conflict: Explaining and Controlling Forgetting in LLM Continual Post-Training.</em> In <strong>NeurIPS 2026</strong>. 🔗[[Paper]](https://arxiv.org/abs/2605.09608) 💻[[Code]](https://github.com/wyy-code/GCWM)
 
-- [C9] 📝 Shuo Cai, <strong class="author-highlight">Yanggan Gu (Co-1st)</strong>, Zihao Wang, Yuanyi Wang, Yibo Yan, Wenjun Wang, Yuhang Liu, Guanghao Zhu, Sirui Huang, Ming Li, Hongxia Yang. <em>From Parameters to Behaviors: A Survey of Model Fusion for Large Language Models.</em> In <strong>EMNLP 2026 Findings</strong>. 🔗[[Paper]](https://www.preprints.org/frontend/manuscript/412c5de33e20b4c7364a754d6fcab767/download_pub)
+- [C9] 📝 Shuo Cai, <strong class="author-highlight">Yanggan Gu (Co-1st)</strong>, Zihao Wang, Yuanyi Wang, Yibo Yan, Wenjun Wang, Yuhang Liu, Guanghao Zhu, Sirui Huang, Ming Li, Hongxia Yang. <em>From Parameters to Behaviors: A Survey of Model Fusion for Large Language Models.</em> In <strong>EMNLP 2026 Findings</strong>. 🔗[[Paper]](https://arxiv.org/abs/2609.19553)
 
 - [C8] 📝 Yuanyi Wang, <strong class="author-highlight">Yanggan Gu (Co-1st)</strong>, Yiming Zhang, Qi Zhou, Zhaoyi Yan, Congkai Xie, Xinyao Wang, Jianbo Yuan, Hongxia Yang. <em>Model Merging Scaling Laws in Large Language Models.</em> In <strong>ICML 2026</strong>. 🔗[[Paper]](https://arxiv.org/abs/2509.24244) 🌐[[Project]](https://infix-ai.com/research/ScalingLaws) 💻[[Code]](https://github.com/InfiXAI/Merging-Scaling-Law)
 

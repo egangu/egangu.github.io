@@ -6,7 +6,7 @@
   margin: (x: 0.9cm, y: 1.1cm),
 )
 
-#set par(justify: true, leading: 0.55em)
+#set par(justify: true, leading: 0.45em)
 
 #let chiline() = { v(-3pt); line(length: 100%); v(-5pt) }
 
@@ -46,21 +46,22 @@ _研究方向_：Linguistic Structure Prediction、Text2SQL（维护 #link("http
 == 代表性论文
 #chiline()
 
+// Top figures checked on 2026-10-02; include Oral + Spotlight, not Spotlight-only acceptance rates.
+// 2025: ~3.5%, https://www.pengzhao-ml.com/file/2025-undergraduate_v1011.pdf
+// 2025 valid submissions: https://blog.neurips.cc/2025/09/30/reflections-on-the-2025-review-process-from-the-program-committee-chairs/
+// 2026: ~1.3%, publicly reported by authors; conference-wide official breakdown not yet found.
+// https://homes.cs.washington.edu/~zzhihan/
 #link("https://arxiv.org/abs/2605.13030")[*FeatCal: Feature Calibration for Post-Merging Models*] #link("https://github.com/egangu/featcal")[[Code]] \
-_第一作者_ #h(1fr) *NeurIPS* 2026 Spotlight（CCF-A） \
+_第一作者_ #h(1fr) *NeurIPS* 2026 Spotlight（Top ≈1.3%；CCF-A） \
 通过逐层闭式更新校准合并模型，降低 feature drift，无需梯度下降。
+
+#link("https://arxiv.org/pdf/2505.13878")[*InfiFPO: Implicit Model Fusion via Preference Optimization in Large Language Models*] #link("https://github.com/InfiXAI/InfiFPO")[[Code]] \
+_第一作者_ #h(1fr) *NeurIPS* 2025 Spotlight（Top ≈3.5%；CCF-A） \
+提出基于 Preference Optimization 的 sequence-level probability fusion，并在 11 个 benchmarks 上进行验证。
 
 #link("https://arxiv.org/abs/2509.24244")[*Model Merging Scaling Laws in Large Language Models*] #link("https://github.com/InfiXAI/Merging-Scaling-Law")[[Code]] \
 _共同第一作者_ #h(1fr) *ICML* 2026（CCF-A） \
 建立 Model Merging Scaling Laws，预测不同 model sizes、expert counts 和 data regimes 下的 model-merging performance。
-
-#link("https://www.preprints.org/frontend/manuscript/412c5de33e20b4c7364a754d6fcab767/download_pub")[*From Parameters to Behaviors: A Survey of Model Fusion for Large Language Models*] \
-_共同第一作者_ #h(1fr) *EMNLP* 2026 Findings（CCF-B） \
-构建涵盖 parameter-level、prediction-level 与 behavior-level methods 的统一 Model Fusion taxonomy。
-
-#link("https://arxiv.org/pdf/2505.13878")[*InfiFPO: Implicit Model Fusion via Preference Optimization in Large Language Models*] #link("https://github.com/InfiXAI/InfiFPO")[[Code]] \
-_第一作者_ #h(1fr) *NeurIPS* 2025 Spotlight（CCF-A） \
-提出基于 Preference Optimization 的 sequence-level probability fusion，并在 11 个 benchmarks 上进行验证。
 
 #link("https://arxiv.org/abs/2502.14272")[*Capturing Nuanced Preferences: Preference-Aligned Distillation for Small Language Models*] #link("https://github.com/EganGu/PAD")[[Code]] \
 _第一作者_ #h(1fr) *ACL* 2025 Findings（CCF-A） \
@@ -69,6 +70,12 @@ _第一作者_ #h(1fr) *ACL* 2025 Findings（CCF-A） \
 #link("https://arxiv.org/abs/2408.12188")[*Reasoning Factual Knowledge in Structured Data with Large Language Models*] #link("https://github.com/EganGu/StructFact")[[Code]] \
 _共同第一作者_ #h(1fr) *ACL* 2025 Findings（CCF-A） \
 提出 StructFact：包含 13,407 个 queries，用于评测 heterogeneous structured knowledge 上的 reasoning。
+
+#link("https://arxiv.org/abs/2609.19553")[*From Parameters to Behaviors: A Survey of Model Fusion for Large Language Models*] \
+_共同第一作者_ #h(1fr) *EMNLP* 2026 Findings（CCF-B） \
+构建涵盖 parameter-level、prediction-level 与 behavior-level methods 的统一 Model Fusion taxonomy。
+
+#text(size: 8pt)[Top 比例为约数，按主会 Oral + Spotlight 论文数 / 有效投稿数统计。]
 
 == 荣誉与奖励
 #chiline()

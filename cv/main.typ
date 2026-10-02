@@ -13,7 +13,7 @@
   margin: (x: 0.9cm, y: 1.3cm),
 )
 
-#set par(justify: true)
+#set par(justify: true, leading: 0.55em)
 
 #let chiline() = { v(-3pt); line(length: 100%); v(-5pt) }
 
@@ -57,21 +57,22 @@ _Research Topic_: Linguistic Structure Prediction, Text2SQL (maintaining #link("
 == Selected Publications
 #chiline()
 
+// Top figures checked on 2026-10-02; include Oral + Spotlight, not Spotlight-only acceptance rates.
+// 2025: ~3.5%, https://www.pengzhao-ml.com/file/2025-undergraduate_v1011.pdf
+// 2025 valid submissions: https://blog.neurips.cc/2025/09/30/reflections-on-the-2025-review-process-from-the-program-committee-chairs/
+// 2026: ~1.3%, publicly reported by authors; conference-wide official breakdown not yet found.
+// https://homes.cs.washington.edu/~zzhihan/
 #link("https://arxiv.org/abs/2605.13030")[*FeatCal: Feature Calibration for Post-Merging Models*] #link("https://github.com/egangu/featcal")[[Code]] \
-_First Author_ #h(1fr) *NeurIPS* 2026 Spotlight (CCF-A) \
+_First Author_ #h(1fr) *NeurIPS* 2026 Spotlight (Top ≈1.3%; CCF-A) \
 Calibrates merged models layer by layer with closed-form updates to reduce feature drift without gradient descent.
+
+#link("https://arxiv.org/pdf/2505.13878")[*InfiFPO: Implicit Model Fusion via Preference Optimization in Large Language Models*] #link("https://github.com/InfiXAI/InfiFPO")[[Code]] \
+_First Author_ #h(1fr) *NeurIPS* 2025 Spotlight (Top ≈3.5%; CCF-A) \
+Introduces sequence-level probability fusion through preference optimization and validates it on 11 benchmarks.
 
 #link("https://arxiv.org/abs/2509.24244")[*Model Merging Scaling Laws in Large Language Models*] #link("https://github.com/InfiXAI/Merging-Scaling-Law")[[Code]] \
 _Co-first Author_ #h(1fr) *ICML* 2026 (CCF-A) \
 Develops scaling laws that predict model-merging performance across model sizes, expert counts, and data regimes.
-
-#link("https://www.preprints.org/frontend/manuscript/412c5de33e20b4c7364a754d6fcab767/download_pub")[*From Parameters to Behaviors: A Survey of Model Fusion for Large Language Models*] \
-_Co-first Author_ #h(1fr) *EMNLP* 2026 Findings (CCF-B) \
-Provides a unified taxonomy of model fusion spanning parameter-, prediction-, and behavior-level methods.
-
-#link("https://arxiv.org/pdf/2505.13878")[*InfiFPO: Implicit Model Fusion via Preference Optimization in Large Language Models*] #link("https://github.com/InfiXAI/InfiFPO")[[Code]] \
-_First Author_ #h(1fr) *NeurIPS* 2025 Spotlight (CCF-A) \
-Introduces sequence-level probability fusion through preference optimization and validates it on 11 benchmarks.
 
 #link("https://arxiv.org/abs/2502.14272")[*Capturing Nuanced Preferences: Preference-Aligned Distillation for Small Language Models*] #link("https://github.com/EganGu/PAD")[[Code]] \
 _First Author_ #h(1fr) *ACL* 2025 Findings (CCF-A) \
@@ -80,6 +81,12 @@ Distills full preference distributions into small language models for more preci
 #link("https://arxiv.org/abs/2408.12188")[*Reasoning Factual Knowledge in Structured Data with Large Language Models*] #link("https://github.com/EganGu/StructFact")[[Code]] \
 _Co-first Author_ #h(1fr) *ACL* 2025 Findings (CCF-A) \
 Introduces StructFact, a 13,407-query benchmark for reasoning over heterogeneous structured knowledge.
+
+#link("https://arxiv.org/abs/2609.19553")[*From Parameters to Behaviors: A Survey of Model Fusion for Large Language Models*] \
+_Co-first Author_ #h(1fr) *EMNLP* 2026 Findings (CCF-B) \
+Provides a unified taxonomy of model fusion spanning parameter-, prediction-, and behavior-level methods.
+
+#text(size: 8pt, style: "italic")[Top percentages approximate Oral + Spotlight papers / valid main-track submissions.]
 
 // #link("https://aclanthology.org/2024.lrec-main.713/")[*High Order Joint Constituency and Dependency Parsing*] #link("https://github.com/EganGu/high-order-joint-parsing")[[Code]], _First Author_. \
 // *Keywords*: Constituency/Dependency Parsing, Lexicalized Modeling. #h(1fr) COLING 2024 (CCF-B) \
