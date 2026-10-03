@@ -20,7 +20,7 @@ import sys
 import tempfile
 from typing import Any, Callable, Mapping
 from urllib import error, parse, request
-from zoneinfo import ZoneInfo
+from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 
 ANALYTICS_SCOPE = "https://www.googleapis.com/auth/analytics.readonly"
@@ -45,6 +45,10 @@ class AuthenticationError(VisitsError):
 
 class AnalyticsResponseError(VisitsError):
     """The Analytics Data API returned an unusable report."""
+
+
+class SnapshotSafetyError(VisitsError):
+    """A surprising zero response would discard a known GA4 count."""
 
 
 def base64url(value: bytes) -> str:
@@ -238,17 +242,48 @@ def fetch_page_views(
     return request_json_fn(report_request)
 
 
+def is_empty_run_report(report: Mapping[str, Any]) -> bool:
+    """Recognize GA4's observed minimal response for a property with no data."""
+
+    if report.get("kind") != "analyticsData#runReport":
+        return False
+    metadata = report.get("metadata")
+    if not isinstance(metadata, dict):
+        return False
+    report_time_zone = metadata.get("timeZone")
+    if (
+        not isinstance(report_time_zone, str)
+        or not report_time_zone
+        or report_time_zone != report_time_zone.strip()
+    ):
+        return False
+    try:
+        ZoneInfo(report_time_zone)
+    except ZoneInfoNotFoundError:
+        return False
+    if "metricHeaders" in report or "dimensionHeaders" in report:
+        return False
+    rows = report.get("rows")
+    if rows not in (None, []):
+        return False
+    row_count = report.get("rowCount")
+    return row_count is None or (type(row_count) is int and row_count == 0)
+
+
 def parse_page_view_count(report: Mapping[str, Any]) -> int:
     """Extract one non-negative, whole-number aggregate from a GA4 report."""
 
     if "error" in report:
         raise AnalyticsResponseError("Google Analytics returned an API error")
+    if is_empty_run_report(report):
+        return 0
     metric_headers = report.get("metricHeaders")
     if (
         not isinstance(metric_headers, list)
         or len(metric_headers) != 1
-        or metric_headers[0]
-        != {"name": "screenPageViews", "type": "TYPE_INTEGER"}
+        or not isinstance(metric_headers[0], Mapping)
+        or metric_headers[0].get("name") != "screenPageViews"
+        or metric_headers[0].get("type") != "TYPE_INTEGER"
     ):
         raise AnalyticsResponseError("Google Analytics report has unexpected metric headers")
     dimension_headers = report.get("dimensionHeaders")
@@ -324,6 +359,23 @@ def atomic_write_json(path: Path, payload: Mapping[str, Any]) -> None:
                 pass
 
 
+def existing_positive_ga4_count(path: Path) -> int | None:
+    """Return a prior GA4 count when it is safe to use as a zero-value guard."""
+
+    try:
+        existing = json.loads(path.read_text(encoding="utf-8"))
+    except (FileNotFoundError, OSError, json.JSONDecodeError):
+        return None
+    if (
+        not isinstance(existing, dict)
+        or existing.get("source") != "ga4"
+        or type(existing.get("count")) is not int
+        or existing["count"] <= 0
+    ):
+        return None
+    return existing["count"]
+
+
 def previous_shanghai_day(now: datetime | None = None) -> date:
     current_time = now or datetime.now(ZoneInfo("Asia/Shanghai"))
     return current_time.astimezone(ZoneInfo("Asia/Shanghai")).date() - timedelta(days=1)
@@ -351,7 +403,10 @@ def update_snapshot(
 
     access_token = token_fetcher(credentials, timestamp)
     report = report_fetcher(access_token, property_id, start_date, through, hostname)
+    empty_report = is_empty_run_report(report)
     count = parse_page_view_count(report)
+    if empty_report and count == 0 and existing_positive_ga4_count(output_path) is not None:
+        raise SnapshotSafetyError("refusing to replace an existing GA4 count with an empty report")
     snapshot = snapshot_for(count, start_date, through, timestamp)
     atomic_write_json(output_path, snapshot)
     return snapshot

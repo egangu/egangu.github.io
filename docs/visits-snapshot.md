@@ -4,6 +4,8 @@ The sidebar renders `Visits` from `_data/visits.json` at build time. It makes no
 
 The **Update visits snapshot** GitHub Actions workflow runs daily at approximately 06:17 Asia/Shanghai and can also be run manually. API or authentication failures leave the last good snapshot intact. With no snapshot yet, the sidebar omits the counter instead of displaying a fabricated zero. The tooltip identifies the date covered by the data.
 
+Current GA4 property: `557194667` (`egangu.github.io`); web stream: `15982666756`; measurement ID: `G-056GMH4WGW`. Its report timezone is UTC+8. The dedicated Google Cloud project is `egangu-homepage-analytics`, with service account `homepage-visits@egangu-homepage-analytics.iam.gserviceaccount.com` granted property-level **Viewer** access.
+
 ## One-time setup
 
 1. In Google Analytics, open the GA4 property whose web stream has measurement ID `G-056GMH4WGW`. Copy its numeric **Property ID** from Admin → Property details. This is different from the `G-…` measurement ID.

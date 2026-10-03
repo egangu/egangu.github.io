@@ -20,6 +20,12 @@ def complete_report(value, *, row_count=1):
     return report
 
 
+EMPTY_RUN_REPORT = {
+    "metadata": {"currencyCode": "CNY", "timeZone": "Asia/Shanghai"},
+    "kind": "analyticsData#runReport",
+}
+
+
 class UpdateVisitsTests(unittest.TestCase):
     def test_service_account_assertion_has_expected_claims(self):
         credentials = {"client_email": "counter@example.iam.gserviceaccount.com", "private_key": "private"}
@@ -119,6 +125,7 @@ class UpdateVisitsTests(unittest.TestCase):
             self.assertEqual(output.read_text(encoding="utf-8"), existing)
 
     def test_empty_valid_report_means_zero_but_error_or_truncated_reports_are_rejected(self):
+        self.assertEqual(update_visits.parse_page_view_count(EMPTY_RUN_REPORT), 0)
         self.assertEqual(update_visits.parse_page_view_count(complete_report(None, row_count=0)), 0)
         self.assertEqual(update_visits.parse_page_view_count(complete_report(None, row_count=None)), 0)
         with self.assertRaises(update_visits.AnalyticsResponseError):
@@ -139,6 +146,52 @@ class UpdateVisitsTests(unittest.TestCase):
             update_visits.parse_page_view_count(complete_report("1", row_count="1"))
         with self.assertRaises(update_visits.AnalyticsResponseError):
             update_visits.parse_page_view_count(complete_report("1", row_count=True))
+        self.assertEqual(update_visits.parse_page_view_count({**EMPTY_RUN_REPORT, "rows": []}), 0)
+        self.assertEqual(update_visits.parse_page_view_count({**EMPTY_RUN_REPORT, "rowCount": 0}), 0)
+        self.assertEqual(
+            update_visits.parse_page_view_count({**EMPTY_RUN_REPORT, "rows": [], "rowCount": 0}), 0
+        )
+
+    def test_metric_header_validation_allows_additional_ga4_fields(self):
+        report = complete_report("1")
+        report["metricHeaders"][0]["futureField"] = "ignored"
+
+        self.assertEqual(update_visits.parse_page_view_count(report), 1)
+
+    def test_first_empty_run_report_writes_a_zero_snapshot(self):
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory) / "visits.json"
+            snapshot = update_visits.update_snapshot(
+                {"client_email": "counter@example.com", "private_key": "private"},
+                "123456",
+                output,
+                end_date=date(2026, 10, 3),
+                now=datetime(2026, 10, 3, 8, 9, 10, tzinfo=timezone.utc),
+                token_fetcher=lambda _credentials, _now: "token",
+                report_fetcher=lambda *_args: EMPTY_RUN_REPORT,
+            )
+
+            self.assertEqual(snapshot["count"], 0)
+            self.assertEqual(json.loads(output.read_text(encoding="utf-8"))["count"], 0)
+
+    def test_empty_run_report_cannot_replace_an_existing_positive_ga4_snapshot(self):
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory) / "visits.json"
+            existing = '{"count": 51, "source": "ga4"}\n'
+            output.write_text(existing, encoding="utf-8")
+
+            with self.assertRaises(update_visits.SnapshotSafetyError):
+                update_visits.update_snapshot(
+                    {"client_email": "counter@example.com", "private_key": "private"},
+                    "123456",
+                    output,
+                    end_date=date(2026, 10, 3),
+                    now=datetime(2026, 10, 3, tzinfo=timezone.utc),
+                    token_fetcher=lambda _credentials, _now: "token",
+                    report_fetcher=lambda *_args: EMPTY_RUN_REPORT,
+                )
+
+            self.assertEqual(output.read_text(encoding="utf-8"), existing)
 
     def test_transport_failure_preserves_existing_snapshot(self):
         with tempfile.TemporaryDirectory() as directory:
