@@ -216,8 +216,10 @@ class UpdateVisitsTests(unittest.TestCase):
 
     def test_environment_configuration_defaults_and_overrides(self):
         self.assertEqual(update_visits.configured_start_date(None), date(2026, 10, 3))
+        self.assertEqual(update_visits.configured_start_date(""), date(2026, 10, 3))
         self.assertEqual(update_visits.configured_start_date("2026-06-01"), date(2026, 6, 1))
         self.assertEqual(update_visits.configured_hostname(None), "egangu.github.io")
+        self.assertEqual(update_visits.configured_hostname(""), "egangu.github.io")
         self.assertEqual(update_visits.configured_hostname("www.egangu.github.io"), "www.egangu.github.io")
         with self.assertRaises(update_visits.ConfigurationError):
             update_visits.configured_start_date("06-01-2026")

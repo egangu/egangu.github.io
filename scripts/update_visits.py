@@ -200,7 +200,7 @@ def configured_start_date(raw_value: str | None) -> date:
 
 
 def configured_hostname(raw_value: str | None) -> str:
-    hostname = SITE_HOSTNAME if raw_value is None else raw_value
+    hostname = raw_value or SITE_HOSTNAME
     if not hostname or hostname != hostname.strip() or any(
         character in hostname for character in "/?#"
     ):
