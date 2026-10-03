@@ -50,7 +50,7 @@ _研究方向_：Linguistic Structure Prediction、Text2SQL（维护 #link("http
 _第一作者_ #h(1fr) *NeurIPS* 2026 Spotlight（CCF-A） \
 通过逐层闭式更新校准合并模型，降低 feature drift，无需梯度下降。
 
-#link("https://arxiv.org/pdf/2505.13878")[*InfiFPO: Implicit Model Fusion via Preference Optimization in Large Language Models*] #link("https://github.com/InfiXAI/InfiFPO")[[Code]] \
+#link("https://arxiv.org/pdf/2505.13878")[*InfiFPO: Implicit Model Fusion via Preference Optimization in Large Language Models*] #link("https://github.com/InfiXAI/InfiFPO")[[Project]] \
 _第一作者_ #h(1fr) *NeurIPS* 2025 Spotlight（CCF-A） \
 提出基于 Preference Optimization 的 sequence-level probability fusion，并在 11 个 benchmarks 上进行验证。
 

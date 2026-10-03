@@ -56,7 +56,7 @@ My research trajectory began with syntactic and semantic parsing and has now shi
 
 ### 2025
 
-- [C6] 📝 <strong class="author-highlight">Yanggan Gu</strong>, Yuanyi Wang, Zhaoyi Yan, Yiming Zhang, Qi Zhou, Fei Wu, Hongxia Yang. <em>InfiFPO: Implicit Model Fusion via Preference Optimization in Large Language Models.</em> In <strong>NeurIPS 2025</strong> <span class="pub-badge">Spotlight</span>. 🔗[[Paper]](https://arxiv.org/pdf/2505.13878) 💻[[Code]](https://github.com/InfiXAI/InfiFPO) 🤗[[Model]](https://huggingface.co/InfiX-ai/InfiFPO-14B)
+- [C6] 📝 <strong class="author-highlight">Yanggan Gu</strong>, Yuanyi Wang, Zhaoyi Yan, Yiming Zhang, Qi Zhou, Fei Wu, Hongxia Yang. <em>InfiFPO: Implicit Model Fusion via Preference Optimization in Large Language Models.</em> In <strong>NeurIPS 2025</strong> <span class="pub-badge">Spotlight</span>. 🔗[[Paper]](https://arxiv.org/pdf/2505.13878) 🌐[[Project]](https://github.com/InfiXAI/InfiFPO) 🤗[[Model]](https://huggingface.co/InfiX-ai/InfiFPO-14B)
 
 - [C7] 📝 Yuanyi Wang, Zhaoyi Yan, Yiming Zhang, Qi Zhou, <strong class="author-highlight">Yanggan Gu</strong>, Fei Wu, Hongxia Yang. <em>InfiGFusion: Graph-on-Logits Distillation via Efficient Gromov-Wasserstein for Model Fusion.</em> In <strong>NeurIPS 2025</strong>. 🔗[[Paper]](https://arxiv.org/pdf/2505.13893) 🌐[[Project]](https://infix-ai.com/research/infigfusion/) 💻[[Code]](https://github.com/InfiXAI/InfiGFusion) 🤗[[Model]](https://huggingface.co/InfiX-ai/InfiGFusion-14B)
 

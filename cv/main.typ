@@ -61,7 +61,7 @@ _Research Topic_: Linguistic Structure Prediction, Text2SQL (maintaining #link("
 _First Author_ #h(1fr) *NeurIPS* 2026 Spotlight (CCF-A) \
 Calibrates merged models layer by layer with closed-form updates to reduce feature drift without gradient descent.
 
-#link("https://arxiv.org/pdf/2505.13878")[*InfiFPO: Implicit Model Fusion via Preference Optimization in Large Language Models*] #link("https://github.com/InfiXAI/InfiFPO")[[Code]] \
+#link("https://arxiv.org/pdf/2505.13878")[*InfiFPO: Implicit Model Fusion via Preference Optimization in Large Language Models*] #link("https://github.com/InfiXAI/InfiFPO")[[Project]] \
 _First Author_ #h(1fr) *NeurIPS* 2025 Spotlight (CCF-A) \
 Introduces sequence-level probability fusion through preference optimization and validates it on 11 benchmarks.
 
