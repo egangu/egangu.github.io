@@ -116,9 +116,12 @@
       {% if author.googlescholar %}
         <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
       {% endif %}
-      <li class="author__visit-counter" id="busuanzi_container_site_pv">
-        <i class="fas fa-fw fa-chart-line" aria-hidden="true"></i> Visits: <span id="busuanzi_value_site_pv">--</span>
-      </li>
+      {% assign visits = site.data.visits %}
+      {% if visits.count != nil %}
+        <li class="author__visit-counter" title="Google Analytics page views through {{ visits.through }}. Updated daily.">
+          <i class="fas fa-fw fa-chart-line" aria-hidden="true"></i> Visits: <span class="author__visit-count">{{ visits.count }}</span>
+        </li>
+      {% endif %}
       {% if author.pubmed %}
         <li><a href="{{ author.pubmed }}"><i class="ai ai-pubmed-square ai-fw"></i> PubMed</a></li>
       {% endif %}
