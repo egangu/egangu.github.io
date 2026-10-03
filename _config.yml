@@ -8,6 +8,8 @@
 # Site Settings
 title                    : "Yanggan Gu"
 description              : "Model Fusion, Trustworthy AI"
+url                      : "https://egangu.github.io"
+baseurl                  : ""
 repository               : "egangu/egangu.github.io"
 google_scholar_stats_enabled : false
 google_scholar_stats_use_cdn : true
@@ -40,6 +42,7 @@ author:
   facebook         :
   foursquare       :
   github           : "egangu" # e.g., "github username"
+  huggingface      : "https://huggingface.co/yanggangu"
   google_plus      :
   keybase          :
   instagram        :

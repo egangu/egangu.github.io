@@ -6,7 +6,7 @@
   margin: (x: 0.9cm, y: 1.1cm),
 )
 
-#set par(justify: true, leading: 0.45em)
+#set par(justify: true, leading: 0.35em)
 
 #let chiline() = { v(-3pt); line(length: 100%); v(-5pt) }
 
@@ -46,18 +46,17 @@ _研究方向_：Linguistic Structure Prediction、Text2SQL（维护 #link("http
 == 代表性论文
 #chiline()
 
-// Top figures checked on 2026-10-02; include Oral + Spotlight, not Spotlight-only acceptance rates.
-// 2025: ~3.5%, https://www.pengzhao-ml.com/file/2025-undergraduate_v1011.pdf
-// 2025 valid submissions: https://blog.neurips.cc/2025/09/30/reflections-on-the-2025-review-process-from-the-program-committee-chairs/
-// 2026: ~1.3%, publicly reported by authors; conference-wide official breakdown not yet found.
-// https://homes.cs.washington.edu/~zzhihan/
 #link("https://arxiv.org/abs/2605.13030")[*FeatCal: Feature Calibration for Post-Merging Models*] #link("https://github.com/egangu/featcal")[[Code]] \
-_第一作者_ #h(1fr) *NeurIPS* 2026 Spotlight（top ～1.3%；CCF-A） \
+_第一作者_ #h(1fr) *NeurIPS* 2026 Spotlight（CCF-A） \
 通过逐层闭式更新校准合并模型，降低 feature drift，无需梯度下降。
 
 #link("https://arxiv.org/pdf/2505.13878")[*InfiFPO: Implicit Model Fusion via Preference Optimization in Large Language Models*] #link("https://github.com/InfiXAI/InfiFPO")[[Code]] \
-_第一作者_ #h(1fr) *NeurIPS* 2025 Spotlight（top ～3.5%；CCF-A） \
+_第一作者_ #h(1fr) *NeurIPS* 2025 Spotlight（CCF-A） \
 提出基于 Preference Optimization 的 sequence-level probability fusion，并在 11 个 benchmarks 上进行验证。
+
+#link("https://arxiv.org/abs/2609.33437")[*SMAT: Simple and Efficient Merge-Aware Training*] #link("https://github.com/egangu/smat")[[Code]] #link("https://huggingface.co/collections/yanggangu/smat-simple-and-efficient-merge-aware-training-6abb7826f636ba703e4f532e")[[HF]] \
+_共同第一作者_ #h(1fr) *预印本* 2026 \
+通过模拟 Scale、Mask 和 Perturb 操作训练 merge-aware experts，训练开销不足 2%。
 
 #link("https://arxiv.org/abs/2509.24244")[*Model Merging Scaling Laws in Large Language Models*] #link("https://github.com/InfiXAI/Merging-Scaling-Law")[[Code]] \
 _共同第一作者_ #h(1fr) *ICML* 2026（CCF-A） \
@@ -67,15 +66,13 @@ _共同第一作者_ #h(1fr) *ICML* 2026（CCF-A） \
 _第一作者_ #h(1fr) *ACL* 2025 Findings（CCF-A） \
 将完整的 preference distributions 蒸馏至 small language models，实现更精细的 preference alignment。
 
-#link("https://arxiv.org/abs/2408.12188")[*Reasoning Factual Knowledge in Structured Data with Large Language Models*] #link("https://github.com/EganGu/StructFact")[[Code]] \
+#link("https://aclanthology.org/2025.findings-acl.391/")[*StructFact: Reasoning Factual Knowledge from Structured Data with Large Language Models*] #link("https://github.com/EganGu/StructFact")[[Code]] \
 _共同第一作者_ #h(1fr) *ACL* 2025 Findings（CCF-A） \
 提出 StructFact：包含 13,407 个 queries，用于评测 heterogeneous structured knowledge 上的 reasoning。
 
 #link("https://arxiv.org/abs/2609.19553")[*From Parameters to Behaviors: A Survey of Model Fusion for Large Language Models*] \
 _共同第一作者_ #h(1fr) *EMNLP* 2026 Findings（CCF-B） \
 构建涵盖 parameter-level、prediction-level 与 behavior-level methods 的统一 Model Fusion taxonomy。
-
-#text(size: 8pt)[Top 比例为约数，按主会 Oral + Spotlight 论文数 / 有效投稿数统计。]
 
 == 荣誉与奖励
 #chiline()

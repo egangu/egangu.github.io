@@ -23,6 +23,7 @@ My research trajectory began with syntactic and semantic parsing and has now shi
 
 # 🔥 News {#news}
 
+- *2026.09*: &nbsp;📑 [SMAT: Simple and Efficient Merge-Aware Training](https://arxiv.org/abs/2609.33437) is now available on arXiv, with [code](https://github.com/egangu/smat) and [models and data](https://huggingface.co/collections/yanggangu/smat-simple-and-efficient-merge-aware-training).
 - *2026.09*: &nbsp;🎉🎉 Three papers have been accepted to **NeurIPS 2026**: **FeatCal** (Spotlight), **Geometry Conflict** (Poster), and **NPCBench** (Evaluations and Datasets Track, Poster)!
 - *2026.08*: &nbsp;🎉🎉 One paper 📑 From Parameters to Behaviors: A Survey of Model Fusion for Large Language Models has been accepted to **EMNLP 2026 Findings**!
 - *2026.05*: &nbsp;🎉🎉 One paper 📑 Model Merging Scaling Laws in Large Language Models has been accepted to **ICML 2026**!
@@ -35,7 +36,7 @@ My research trajectory began with syntactic and semantic parsing and has now shi
 
 - [C12] 📝 Pengkai Wang, Wei-Wei Zhang, Yan Li, Min Tang, Zhitian Hou, Zeyu Liu, Guanghao Zhu, Yuanyi Wang, <strong class="author-highlight">Yanggan Gu</strong>, Wenjun Wang, Minheng Ni, Congkai Xie, Zhijie Sang, Jianmin Wu, Ying Sun, Hongxia Yang. <em>NPCBench: A Clinical Apprenticeship Benchmark for Guideline-Constrained Care-Pathway Reasoning in Nasopharyngeal Carcinoma.</em> In <strong>NeurIPS 2026 Evaluations and Datasets Track</strong>.
 
-- [C11] 📝 <strong class="author-highlight">Yanggan Gu</strong>, Shuo Cai, Zihao Wang, Wenjun Wang, Yuanyi Wang, Pengkai Wang, Sirui Huang, Su Lu, Jianmin Wu, Hongxia Yang. <em>FeatCal: Feature Calibration for Post-Merging Models.</em> In <strong>NeurIPS 2026</strong> <span class="pub-badge">Spotlight</span> (top ～1.3%). 🔗[[Paper]](https://arxiv.org/abs/2605.13030) 💻[[Code]](https://github.com/egangu/featcal)
+- [C11] 📝 <strong class="author-highlight">Yanggan Gu</strong>, Shuo Cai, Zihao Wang, Wenjun Wang, Yuanyi Wang, Pengkai Wang, Sirui Huang, Su Lu, Jianmin Wu, Hongxia Yang. <em>FeatCal: Feature Calibration for Post-Merging Models.</em> In <strong>NeurIPS 2026</strong> <span class="pub-badge">Spotlight</span>. 🔗[[Paper]](https://arxiv.org/abs/2605.13030) 💻[[Code]](https://github.com/egangu/featcal)
 
 - [C10] 📝 Yuanyi Wang, Yifan Yang, Su Lu, <strong class="author-highlight">Yanggan Gu</strong>, Pengkai Wang, Wenjun Wang, Zhaoyi Yan, Congkai Xie, Jianmin Wu, Jialun Cao, Shing-Chi Cheung, Hongxia Yang. <em>Geometry Conflict: Explaining and Controlling Forgetting in LLM Continual Post-Training.</em> In <strong>NeurIPS 2026</strong>. 🔗[[Paper]](https://arxiv.org/abs/2605.09608) 💻[[Code]](https://github.com/wyy-code/GCWM)
 
@@ -47,23 +48,25 @@ My research trajectory began with syntactic and semantic parsing and has now shi
 
 - [W1] 📝 Yuanyi Wang, <strong class="author-highlight">Yanggan Gu</strong>, Su Lu, Yifan Yang, Zhaoyi Yan, Congkai Xie, Jianmin Wu, Hongxia Yang. <em>Access Sets Matter: Budgeting Expert Reads for Scalable Weight-Space Model Merging.</em> In <strong>ICML 2026 Workshop on Weight-Space Symmetries</strong>. 🔗[[Paper]](https://openreview.net/forum?id=aQIOppFWrT) 💻[[Code]](https://github.com/wyy-code/mergepipe)
 
+- [Pre3] 🧪 <strong class="author-highlight">Yanggan Gu (Co-1st)</strong>, Yuanyi Wang (Co-1st), Zhen Li, Shuo Cai, Yuhang Liu, Junzhuo Li, Zihao Wang, Hongxia Yang. <em>SMAT: Simple and Efficient Merge-Aware Training.</em> In arXiv 2026. 🔗[[Paper]](https://arxiv.org/abs/2609.33437) 💻[[Code]](https://github.com/egangu/smat) 🤗[[Models & Data]](https://huggingface.co/collections/yanggangu/smat-simple-and-efficient-merge-aware-training)
+
 - [Pre1] 🧪 Wenjun Wang, <strong class="author-highlight">Yanggan Gu (Co-1st)</strong>, Shuo Cai, Yuanyi Wang, Pengkai Wang, Jianmin Wu, Hongxia Yang. <em>E-PMQ: Expert-Guided Post-Merge Quantization with Merged-Weight Anchoring.</em> In arXiv 2026. 🔗[[Paper]](https://arxiv.org/abs/2605.16882) 💻[[Code]](https://github.com/wwjzhy/E-PMQ)
 
 - [Pre2] 🧪 Yuanyi Wang, Su Lu, <strong class="author-highlight">Yanggan Gu</strong>, Pengkai Wang, Yifan Yang, Zhaoyi Yan, Congkai Xie, Jianmin Wu, Hongxia Yang. <em>Not All Disagreement Is Learnable: Token Teachability in On-Policy Distillation.</em> In arXiv 2026. 🔗[[Paper]](https://arxiv.org/abs/2605.26844) 💻[[Code]](https://github.com/wyy-code/TA-OPD)
 
 ### 2025
 
-- [C6] 📝 <strong class="author-highlight">Yanggan Gu</strong>, Yuanyi Wang, Zhaoyi Yan, Yiming Zhang, Qi Zhou, Fei Wu, Hongxia Yang. <em>InfiFPO: Implicit Model Fusion via Preference Optimization in Large Language Models.</em> In <strong>NeurIPS 2025</strong> <span class="pub-badge">Spotlight</span> (top ～3.5%). 🔗[[Paper]](https://arxiv.org/pdf/2505.13878) 💻[[Code]](https://github.com/InfiXAI/InfiFPO) 🤗[[Model]](https://huggingface.co/InfiX-ai/InfiFPO-14B)
+- [C6] 📝 <strong class="author-highlight">Yanggan Gu</strong>, Yuanyi Wang, Zhaoyi Yan, Yiming Zhang, Qi Zhou, Fei Wu, Hongxia Yang. <em>InfiFPO: Implicit Model Fusion via Preference Optimization in Large Language Models.</em> In <strong>NeurIPS 2025</strong> <span class="pub-badge">Spotlight</span>. 🔗[[Paper]](https://arxiv.org/pdf/2505.13878) 💻[[Code]](https://github.com/InfiXAI/InfiFPO) 🤗[[Model]](https://huggingface.co/InfiX-ai/InfiFPO-14B)
 
 - [C7] 📝 Yuanyi Wang, Zhaoyi Yan, Yiming Zhang, Qi Zhou, <strong class="author-highlight">Yanggan Gu</strong>, Fei Wu, Hongxia Yang. <em>InfiGFusion: Graph-on-Logits Distillation via Efficient Gromov-Wasserstein for Model Fusion.</em> In <strong>NeurIPS 2025</strong>. 🔗[[Paper]](https://arxiv.org/pdf/2505.13893) 🌐[[Project]](https://infix-ai.com/research/infigfusion/) 💻[[Code]](https://github.com/InfiXAI/InfiGFusion) 🤗[[Model]](https://huggingface.co/InfiX-ai/InfiGFusion-14B)
 
 - [J1] 📚 Qi Zhou, Yiming Zhang, <strong class="author-highlight">Yanggan Gu</strong>, Yuanyi Wang, Zhijie Sang, Zhaoyi Yan, Zhen Li, Shengyu Zhang, Fei Wu, Hongxia Yang. <em>Democratizing AI Through Model Fusion: A Comprehensive Review and Future Directions.</em> In <strong>Nexus</strong>. 🔗[[Paper]](https://www.cell.com/nexus/pdf/S2950-1601(25)00049-X.pdf)
 
-- [C5] 📝 Yunkai Dang, Mengxi Gao, Yibo Yan, Xin Zou, <strong class="author-highlight">Yanggan Gu</strong>, Aiwei Liu, Xuming Hu. <em>Exploring Response Uncertainty in MLLMs: An Empirical Evaluation under Misleading Scenarios.</em> In <strong>EMNLP 2025 Main</strong>. 🔗[[Paper]](https://arxiv.org/pdf/2411.02708)
+- [C5] 📝 Yunkai Dang, Mengxi Gao, Yibo Yan, Xin Zou, <strong class="author-highlight">Yanggan Gu</strong>, Jungang Li, Jingyu Wang, Peijie Jiang, Aiwei Liu, Jia Liu, Xuming Hu. <em>Exploring Response Uncertainty in MLLMs: An Empirical Evaluation under Misleading Scenarios.</em> In <strong>EMNLP 2025 Main</strong>. 🔗[[Paper]](https://aclanthology.org/2025.emnlp-main.916/)
 
-- [C2] 📝 <strong class="author-highlight">Yanggan Gu</strong>, Junzhuo Li, Sirui Huang, Xin Zou, Zhenghua Li, Xuming Hu. <em>Capturing Nuanced Preferences: Preference-Aligned Distillation for Small Language Models.</em> In <strong>ACL 2025 Findings</strong>. 🔗[[Paper]](https://aclanthology.org/2025.findings-acl.822.pdf)
+- [C2] 📝 <strong class="author-highlight">Yanggan Gu</strong>, Junzhuo Li, Sirui Huang, Xin Zou, Zhenghua Li, Xuming Hu. <em>Capturing Nuanced Preferences: Preference-Aligned Distillation for Small Language Models.</em> In <strong>ACL 2025 Findings</strong>. 🔗[[Paper]](https://aclanthology.org/2025.findings-acl.822.pdf) 💻[[Code]](https://github.com/EganGu/PAD)
 
-- [C3] 📝 Sirui Huang, <strong class="author-highlight">Yanggan Gu (Co-1st)</strong>, Zhonghao Li, Xuming Hu, Li Qing, Guandong Xu. <em>StructFact: Reasoning Factual Knowledge from Structured Data with Large Language Models.</em> In <strong>ACL 2025 Findings</strong>. 🔗[[Paper]](https://aclanthology.org/2025.findings-acl.391.pdf)
+- [C3] 📝 Sirui Huang, <strong class="author-highlight">Yanggan Gu (Co-1st)</strong>, Zhonghao Li, Xuming Hu, Li Qing, Guandong Xu. <em>StructFact: Reasoning Factual Knowledge from Structured Data with Large Language Models.</em> In <strong>ACL 2025 Findings</strong>. 🔗[[Paper]](https://aclanthology.org/2025.findings-acl.391.pdf) 💻[[Code]](https://github.com/EganGu/StructFact)
 
 - [C4] 📝 Sirui Huang, Hanqian Li, <strong class="author-highlight">Yanggan Gu</strong>, Xuming Hu, Qing Li, Guandong Xu. <em>HyperG: Hypergraph-Enhanced LLMs for Structured Knowledge.</em> In <strong>SIGIR 2025</strong>. 🔗[[Paper]](https://dl.acm.org/doi/pdf/10.1145/3726302.3730002)
 
@@ -87,7 +90,3 @@ My research trajectory began with syntactic and semantic parsing and has now shi
 - 2026.01 - Present, Ph.D. Student, The Hong Kong Polytechnic University.
 - 2022.09 - 2025.06, M.S., Soochow University.
 - 2018.09 - 2022.06, B.S., Guangdong University of Technology.
-
-# 💻 Internships {#internships}
-
-- 2025.06 - 2025.12, [InfiX-ai](https://huggingface.co/InfiX-ai), Shenzhen, China.
