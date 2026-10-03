@@ -6,7 +6,7 @@ The **Update visits snapshot** GitHub Actions workflow runs daily at approximate
 
 ## One-time setup
 
-1. In Google Analytics, open the GA4 property whose web stream has measurement ID `G-2M7BB1TMN5`. Copy its numeric **Property ID** from Admin → Property details. This is different from the `G-…` measurement ID.
+1. In Google Analytics, open the GA4 property whose web stream has measurement ID `G-056GMH4WGW`. Copy its numeric **Property ID** from Admin → Property details. This is different from the `G-…` measurement ID.
 2. In Google Cloud, enable the **Google Analytics Data API** in a project and create a service account for the snapshot job. This task needs no paid resource and no Google Cloud project IAM role.
 3. In the GA4 property's **Property access management**, add the service account email as **Viewer**. This grants read access to the property's reports, so use a property dedicated to the homepage.
 4. Create a JSON key for the service account. Store its contents as repository Actions secret `GA4_SERVICE_ACCOUNT_JSON`, and set repository Actions variable `GA4_PROPERTY_ID` to the numeric ID. Never commit the JSON key.
