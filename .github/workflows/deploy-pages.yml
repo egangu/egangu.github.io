@@ -64,6 +64,18 @@ jobs:
         with:
           path: _site
 
+      - name: Build Seoul site
+        env:
+          JEKYLL_ENV: production
+        run: bundle exec jekyll build --config _config.yml,_config.seoul.yml --destination _site-seoul
+
+      - name: Upload Seoul artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: homepage-seoul
+          path: _site-seoul
+          retention-days: 7
+
   deploy:
     if: github.ref == 'refs/heads/main'
     needs: build
@@ -75,3 +87,46 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
+
+  deploy-seoul:
+    if: github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Download Seoul artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: homepage-seoul
+          path: _site-seoul
+
+      - name: Configure deployment SSH
+        env:
+          DEPLOY_KEY: ${{ secrets.SEOUL_DEPLOY_KEY }}
+          KNOWN_HOSTS: ${{ vars.SEOUL_SSH_KNOWN_HOSTS }}
+        run: |
+          umask 077
+          mkdir -p ~/.ssh
+          printf '%s\n' "$DEPLOY_KEY" > ~/.ssh/seoul_homepage
+          printf '%s\n' "$KNOWN_HOSTS" > ~/.ssh/known_hosts
+
+      - name: Publish to Seoul
+        env:
+          DEPLOY_HOST: ${{ vars.SEOUL_DEPLOY_HOST }}
+        run: |
+          test -n "$DEPLOY_HOST"
+          rsync -rlptz --delete-delay --delay-updates \
+            -e 'ssh -i ~/.ssh/seoul_homepage -o IdentitiesOnly=yes -o BatchMode=yes -o StrictHostKeyChecking=yes -o ConnectTimeout=15' \
+            _site-seoul/ "homepage-deploy@${DEPLOY_HOST}:/"
+
+      - name: Verify public homepage
+        run: |
+          curl --fail --silent --show-error --max-time 30 https://yggu.site/ -o /tmp/homepage.html
+          grep -Fq '<link rel="canonical" href="https://yggu.site/">' /tmp/homepage.html
+          curl --fail --silent --show-error --max-time 30 https://yggu.site/files/cv.pdf -o /tmp/cv.pdf
+          test "$(head -c 5 /tmp/cv.pdf)" = '%PDF-'
+
+      - name: Remove deployment key
+        if: always()
+        run: rm -f ~/.ssh/seoul_homepage

@@ -1,0 +1,5 @@
+yggu.site {
+	root * /srv/yggu/homepage/public
+	encode zstd gzip
+	file_server
+}

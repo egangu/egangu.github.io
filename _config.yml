@@ -70,6 +70,7 @@ include:
   - _pages
   - files
 exclude:
+  - deploy
   - docs
   - cv
   - scripts
