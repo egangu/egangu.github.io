@@ -23,7 +23,6 @@ My research trajectory began with syntactic and semantic parsing and has now shi
 
 # 🔥 News {#news}
 
-- *2026.11*: &nbsp;📑 [NPCBench: A Clinical Apprenticeship Benchmark for Multimodal Care-Pathway Reasoning in Nasopharyngeal Carcinoma](https://arxiv.org/abs/2611.08369) is now available on arXiv.
 - *2026.10*: &nbsp;🏅 Recognized as a **Top Reviewer at NeurIPS 2026**!
 - *2026.09*: &nbsp;📑 [SMAT: Simple and Efficient Merge-Aware Training](https://arxiv.org/abs/2609.33437) is now available on arXiv, with [code](https://github.com/egangu/smat) and [models and data](https://huggingface.co/collections/yanggangu/smat-simple-and-efficient-merge-aware-training).
 - *2026.09*: &nbsp;🎉🎉 Three papers have been accepted to **NeurIPS 2026**: **FeatCal** (Spotlight), **Geometry Conflict** (Poster), and **NPCBench** (Evaluations and Datasets Track, Poster)!
