@@ -77,6 +77,7 @@ _共同第一作者_ #h(1fr) *EMNLP* 2026 Findings（CCF-B） \
 == 荣誉与奖励
 #chiline()
 
+- *NeurIPS 2026 Top Reviewer（优秀审稿人）。* #h(1fr) 2026/10 \
 - *CCL-2023 Chinese AMR Parsing Evaluation Task 第一名。* #link("https://aclanthology.org/2023.ccl-3.5/")[[报告]] #h(1fr) 2023/08 \
 - *广东工业大学十大创新人物。* #link("https://www.sohu.com/a/507610953_121124288")[[搜狐新闻]] #h(1fr) 2021/12 \
 - *国家励志奖学金。* #link("https://drive.google.com/file/d/1FIV03Zrx7rMji_6WPKmpcm3MVlIy4eE1/view?usp=sharing")[[证明]] #h(1fr) 2021/11 \
@@ -84,4 +85,4 @@ _共同第一作者_ #h(1fr) *EMNLP* 2026 Findings（CCF-B） \
 == 学术服务
 #chiline()
 
-- *审稿人*：ICML、ICLR、NeurIPS、ARR 和 TMLR。
+- *审稿人*：ICML、ICLR、NeurIPS（2026 年获评 *Top Reviewer*）、ARR 和 TMLR。

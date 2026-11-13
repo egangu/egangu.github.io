@@ -95,6 +95,7 @@ Provides a unified taxonomy of model fusion spanning parameter-, prediction-, an
 == Honors and Awards
 #chiline()
 
+- *NeurIPS 2026 Top Reviewer.* #h(1fr) 2026/10 \
 - *1st place in the CCL-2023 Chinese AMR Parsing Evaluation Task.* #link("https://aclanthology.org/2023.ccl-3.5/")[\[Report\]] #h(1fr) 2023/08 \
 - *Top 10 Innovative Figures of Guangdong University of Technology.* #link("https://www.sohu.com/a/507610953_121124288")[[Sohu News]]  #h(1fr) 2021/12 \
 - *National Encouragement Scholarship.* #link("https://drive.google.com/file/d/1FIV03Zrx7rMji_6WPKmpcm3MVlIy4eE1/view?usp=sharing")[[Link]] #h(1fr) 2021/11 \
@@ -103,5 +104,5 @@ Provides a unified taxonomy of model fusion spanning parameter-, prediction-, an
 == Academic Service
 #chiline()
 
-- *Reviewer*: ICML, ICLR, NeurIPS, ARR, and TMLR.
+- *Reviewer*: ICML, ICLR, NeurIPS (*Top Reviewer*, 2026), ARR, and TMLR.
 // - *Programming*: Python (\~5 years), #link("https://pytorch.org/")[Pytorch] (\~4 years), #link("https://huggingface.co/docs/transformers/index")[Transformers] (\~ 3 years).

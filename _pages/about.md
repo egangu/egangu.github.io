@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: ""
-excerpt: ""
+excerpt: "Yanggan Gu (辜仰淦) is a PhD student at The Hong Kong Polytechnic University, researching large language models, model fusion, and trustworthy AI."
 author_profile: true
 redirect_from: 
   - /about/
@@ -23,6 +23,8 @@ My research trajectory began with syntactic and semantic parsing and has now shi
 
 # 🔥 News {#news}
 
+- *2026.11*: &nbsp;📑 [NPCBench: A Clinical Apprenticeship Benchmark for Multimodal Care-Pathway Reasoning in Nasopharyngeal Carcinoma](https://arxiv.org/abs/2611.08369) is now available on arXiv.
+- *2026.10*: &nbsp;🏅 Recognized as a **Top Reviewer at NeurIPS 2026**!
 - *2026.09*: &nbsp;📑 [SMAT: Simple and Efficient Merge-Aware Training](https://arxiv.org/abs/2609.33437) is now available on arXiv, with [code](https://github.com/egangu/smat) and [models and data](https://huggingface.co/collections/yanggangu/smat-simple-and-efficient-merge-aware-training).
 - *2026.09*: &nbsp;🎉🎉 Three papers have been accepted to **NeurIPS 2026**: **FeatCal** (Spotlight), **Geometry Conflict** (Poster), and **NPCBench** (Evaluations and Datasets Track, Poster)!
 - *2026.08*: &nbsp;🎉🎉 One paper 📑 From Parameters to Behaviors: A Survey of Model Fusion for Large Language Models has been accepted to **EMNLP 2026 Findings**!
@@ -34,13 +36,13 @@ My research trajectory began with syntactic and semantic parsing and has now shi
 
 ### 2026
 
-- [C12] 📝 Pengkai Wang, Wei-Wei Zhang, Yan Li, Min Tang, Zhitian Hou, Zeyu Liu, Guanghao Zhu, Yuanyi Wang, <strong class="author-highlight">Yanggan Gu</strong>, Wenjun Wang, Minheng Ni, Congkai Xie, Zhijie Sang, Jianmin Wu, Ying Sun, Hongxia Yang. <em>NPCBench: A Clinical Apprenticeship Benchmark for Guideline-Constrained Care-Pathway Reasoning in Nasopharyngeal Carcinoma.</em> In <strong>NeurIPS 2026 Evaluations and Datasets Track</strong>.
+- [C12] 📝 Pengkai Wang, Wei-Wei Zhang, Yan Li, Min Tang, Zhitian Hou, Zeyu Liu, Guanghao Zhu, Yuanyi Wang, <strong class="author-highlight">Yanggan Gu</strong>, Wenjun Wang, Minheng Ni, Congkai Xie, Zhijie Sang, Jianmin Wu, Ying Sun, Hongxia Yang. <em>NPCBench: A Clinical Apprenticeship Benchmark for Multimodal Care-Pathway Reasoning in Nasopharyngeal Carcinoma.</em> In <strong>NeurIPS 2026 Evaluations and Datasets Track</strong>. 🔗[[Paper]](https://arxiv.org/abs/2611.08369)
 
 - [C11] 📝 <strong class="author-highlight">Yanggan Gu</strong>, Shuo Cai, Zihao Wang, Wenjun Wang, Yuanyi Wang, Pengkai Wang, Sirui Huang, Su Lu, Jianmin Wu, Hongxia Yang. <em>FeatCal: Feature Calibration for Post-Merging Models.</em> In <strong>NeurIPS 2026</strong> <span class="pub-badge">Spotlight</span>. 🔗[[Paper]](https://arxiv.org/abs/2605.13030) 💻[[Code]](https://github.com/egangu/featcal)
 
 - [C10] 📝 Yuanyi Wang, Yifan Yang, Su Lu, <strong class="author-highlight">Yanggan Gu</strong>, Pengkai Wang, Wenjun Wang, Zhaoyi Yan, Congkai Xie, Jianmin Wu, Jialun Cao, Shing-Chi Cheung, Hongxia Yang. <em>Geometry Conflict: Explaining and Controlling Forgetting in LLM Continual Post-Training.</em> In <strong>NeurIPS 2026</strong>. 🔗[[Paper]](https://arxiv.org/abs/2605.09608) 💻[[Code]](https://github.com/wyy-code/GCWM)
 
-- [C9] 📝 Shuo Cai, <strong class="author-highlight">Yanggan Gu (Co-1st)</strong>, Zihao Wang, Yuanyi Wang, Yibo Yan, Wenjun Wang, Yuhang Liu, Guanghao Zhu, Sirui Huang, Ming Li, Hongxia Yang. <em>From Parameters to Behaviors: A Survey of Model Fusion for Large Language Models.</em> In <strong>EMNLP 2026 Findings</strong>. 🔗[[Paper]](https://arxiv.org/abs/2609.19553)
+- [C9] 📝 Shuo Cai, <strong class="author-highlight">Yanggan Gu (Co-1st)</strong>, Zihao Wang, Yuanyi Wang, Yibo Yan, Wenjun Wang, Yuhang Liu, Guanghao Zhu, Sirui Huang, Ming Li, Hongxia Yang. <em>From Parameters to Behaviors: A Survey of Model Fusion for Large Language Models.</em> In <strong>EMNLP 2026 Findings</strong>. 🔗[[Paper]](https://arxiv.org/abs/2609.19553) 📚[[Resources]](https://github.com/Baicaihaochi/Awesome-Model-Fusion-Survey)
 
 - [C8] 📝 Yuanyi Wang, <strong class="author-highlight">Yanggan Gu (Co-1st)</strong>, Yiming Zhang, Qi Zhou, Zhaoyi Yan, Congkai Xie, Xinyao Wang, Jianbo Yuan, Hongxia Yang. <em>Model Merging Scaling Laws in Large Language Models.</em> In <strong>ICML 2026</strong>. 🔗[[Paper]](https://arxiv.org/abs/2509.24244) 🌐[[Project]](https://infix-ai.com/research/ScalingLaws) 💻[[Code]](https://github.com/InfiXAI/Merging-Scaling-Law)
 
@@ -76,6 +78,7 @@ My research trajectory began with syntactic and semantic parsing and has now shi
 
 # 🎖 Honors and Awards {#honors-and-awards}
 
+- 🏅 2026.10: NeurIPS 2026 Top Reviewer.
 - 🥇 2023.08: 1st place in the CCL-2023 Chinese AMR Parsing Evaluation Task. 🔗[Report](https://aclanthology.org/2023.ccl-3.5/)
 - 🏅 2021.12: Top 10 Innovative Figures of Guangdong University of Technology. 🪧[Sohu News](https://www.sohu.com/a/507610953_121124288)
 - 🏅 2021.11: National Encouragement Scholarship. 🔗[Link](https://edu.gd.gov.cn/zwgknew/gsgg/content/post_3678694.html)
@@ -84,6 +87,7 @@ My research trajectory began with syntactic and semantic parsing and has now shi
 # 🪴 Service {#service}
 
 - Reviewer: ICML, ICLR, NeurIPS, ARR, TMLR.
+- NeurIPS 2026 Main Reviewer, recognized as a **Top Reviewer**.
 
 # 🎓 Education {#education}
 
