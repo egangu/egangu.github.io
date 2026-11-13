@@ -86,7 +86,6 @@ My research trajectory began with syntactic and semantic parsing and has now shi
 # 🪴 Service {#service}
 
 - Reviewer: ICML, ICLR, NeurIPS, ARR, TMLR.
-- NeurIPS 2026 Main Reviewer, recognized as a **Top Reviewer**.
 
 # 🎓 Education {#education}
 
